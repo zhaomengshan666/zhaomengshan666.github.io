@@ -37,4 +37,19 @@
         <tag>hexo</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Dataset</title>
+    <url>/2020/04/12/Dataset/</url>
+    <content><![CDATA[<h1 id="常用数据集整理"><a href="#常用数据集整理" class="headerlink" title="常用数据集整理"></a>常用数据集整理</h1><a id="more"></a>
+<blockquote>
+<p>1.新浪微博数据集MicroblogPCU：<br><a href="https://archive.ics.uci.edu/ml/machine-learning-databases/00323/" target="_blank" rel="noopener">https://archive.ics.uci.edu/ml/machine-learning-databases/00323/</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>复杂网络</category>
+      </categories>
+      <tags>
+        <tag>[object Object]</tag>
+      </tags>
+  </entry>
 </search>
