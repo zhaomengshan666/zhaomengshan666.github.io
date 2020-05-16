@@ -1,6 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>图片插入说明</title>
+    <url>/2020/05/15/Picture/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在hexo博客中插入图片</p>
+<a id="more"></a>
+
+<h1 id="文件配置"><a href="#文件配置" class="headerlink" title="文件配置"></a>文件配置</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1.设置站点配置_config.yml:将post_asset_folder: false改为post_asset_folder: true</span><br><span class="line">2.安装插件:npm install https:&#x2F;&#x2F;github.com&#x2F;CodeFalling&#x2F;hexo-asset-image -- save</span><br><span class="line">3.运行hexo n &quot;XXXXXX&quot;,生成XXXXX.md博文时就会在&#x2F;source&#x2F;_posts目录下生成XXXXXX的文件夹，将你想在XXXXX博文中插入的照片放置到这个同名文件夹中即可，图片的命名随意。</span><br><span class="line">4.添加图片:在想添加的位置写入![](图片名字.图片格式),例如![](1.png)。</span><br></pre></td></tr></table></figure>
+<p><strong>示例</strong><br><img src="/2020/05/15/Picture/1.jpg" alt="测试贴图"></p>
+<hr>
+<h1 id="图片放大"><a href="#图片放大" class="headerlink" title="图片放大"></a>图片放大</h1><p>使用fancybox插件实现功能</p>
+<h2 id="1-切换到lib目录"><a href="#1-切换到lib目录" class="headerlink" title="1.切换到lib目录"></a>1.切换到lib目录</h2><blockquote>
+<p>cd next/source/lib</p>
+</blockquote>
+<h2 id="2-下载插件"><a href="#2-下载插件" class="headerlink" title="2.下载插件"></a>2.下载插件</h2><blockquote>
+<p>git clone <a href="https://github.com/theme-next/theme-next-fancybox3" target="_blank" rel="noopener">https://github.com/theme-next/theme-next-fancybox3</a> fancybox</p>
+</blockquote>
+<h2 id="3-启用插件"><a href="#3-启用插件" class="headerlink" title="3.启用插件"></a>3.启用插件</h2><blockquote>
+<p>更改next/_config.yml文件 fancybox: true</p>
+</blockquote>
+<hr>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>在刚开始没有启用fancybox插件的时候，我插入的图片是不显示名称的，但是在启用插件之后就可以使用了</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客使用语法说明</title>
+    <url>/2020/04/04/my-first-blog/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>为了防止自己不会使用Markdown语法导致写不了博客，特意在此记录，当然还是要多写，多练才是熟悉语法的最好方法。<a id="more"></a></p>
+<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>标准语法一般是在# 后面加空格再写文字，# 为一级标题 ##为二号标题，以此类推，最高六级<br>示例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h1><h2 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h2><pre><code>要加粗的文字左右两边使用 **两个** &quot; * &quot; 包裹起来</code></pre><h2 id="倾斜"><a href="#倾斜" class="headerlink" title="倾斜"></a>倾斜</h2><pre><code>要倾斜的文字左右两边使用 **一个** &quot; * &quot; 包裹起来</code></pre><h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><pre><code>要加删除线的文字左右两边使用 **两个** &quot; ~ &quot; 包裹起来</code></pre><h2 id="添加颜色"><a href="#添加颜色" class="headerlink" title="添加颜色"></a>添加颜色</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">这是&lt;label style&#x3D;&quot;color:red&quot;&gt;红色&lt;&#x2F;label&gt;字体</span><br><span class="line">这是&lt;label style&#x3D;&quot;color:green&quot;&gt;绿色&lt;&#x2F;label&gt;字体</span><br><span class="line">这是&lt;label style&#x3D;&quot;color:yellow&quot;&gt;黄色&lt;&#x2F;label&gt;字体</span><br><span class="line">这是&lt;label style&#x3D;&quot;color:blue&quot;&gt;蓝色&lt;&#x2F;label&gt;字体</span><br></pre></td></tr></table></figure>
+<p>示例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*</span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>
+<p>这是<label style="color:red">红色</label>字体<br>这是<label style="color:green">绿色</label>字体<br>这是<label style="color:yellow">黄色</label>字体<br>这是<label style="color:blue">蓝色</label>字体</p>
+<hr>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><p>在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;n个<br>示例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;这是引用的内容</span><br><span class="line">&gt;&gt;这是引用的内容</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<blockquote>
+<p>这是引用的内容</p>
+<blockquote>
+<p>这是引用的内容</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>这是引用的内容</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><p>三个或者三个以上的 - 或者 * 都可以</p>
+<hr>
+<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[超链接名](超链接地址)</span><br></pre></td></tr></table></figure>
+<p>示例：</p>
+<blockquote>
+<p><a href="http://www.ynu.edu.cn" target="_blank" rel="noopener">云南大学</a></p>
+</blockquote>
+<hr>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>无序列表使用 + - * 后加一个空格<br>有序列表使用数字加 .<br>示例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">- 无序列表内容</span><br><span class="line">+ 无序列表内容</span><br><span class="line">* 无序列表内容</span><br><span class="line">1. 有序列表内容</span><br><span class="line">2. 有序列表内容</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<blockquote>
+<ul>
+<li>无序列表内容</li>
+</ul>
+<ul>
+<li>无序列表内容</li>
+</ul>
+<ul>
+<li>无序列表内容</li>
+</ul>
+<ol>
+<li>有序列表内容</li>
+<li>有序列表内容</li>
+</ol>
+</blockquote>
+<p><strong>列表嵌套</strong><br>上级与下一级之间敲三个空格</p>
+<ul>
+<li>上级<ul>
+<li>下级</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><p>语法：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">表头|表头|表头</span><br><span class="line">---|:--:|---:</span><br><span class="line">内容|内容|内容</span><br><span class="line">内容|内容|内容</span><br><span class="line"></span><br><span class="line">第二行分割表头和内容。</span><br><span class="line">- 有一个就行，为了对齐，多加了几个</span><br><span class="line">注：原生的语法两边都要用 | 包起来。</span><br></pre></td></tr></table></figure>
+<p>示例：</p>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th align="center">性别</th>
+<th align="right">年龄</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>小明</td>
+<td align="center">男</td>
+<td align="right">14</td>
+</tr>
+<tr>
+<td>小红</td>
+<td align="center">女</td>
+<td align="right">14</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="成功了吗？"><a href="#成功了吗？" class="headerlink" title="成功了吗？"></a>成功了吗？</h2><p><img src="/images/figure0.jpg" alt="我的头像"></p>
+<hr>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hello world!</span><br><span class="line">你好!</span><br></pre></td></tr></table></figure>
+<hr>
+<blockquote>
+<p>引用</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数据集</title>
     <url>/2020/04/12/Dataset/</url>
     <content><![CDATA[<h1 id="常用数据集查询平台"><a href="#常用数据集查询平台" class="headerlink" title="常用数据集查询平台"></a>常用数据集查询平台</h1><a id="more"></a>
@@ -18,42 +160,5 @@
       <tags>
         <tag>数据集</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>my_first_blog</title>
-    <url>/2020/04/04/my-first-blog/</url>
-    <content><![CDATA[<h1 id="我的第一篇文章"><a href="#我的第一篇文章" class="headerlink" title="我的第一篇文章"></a>我的第一篇文章</h1><a id="more"></a>
-<h2 id="成功了吗？"><a href="#成功了吗？" class="headerlink" title="成功了吗？"></a>成功了吗？</h2><p><img src="/images/figure0.jpg" alt="我的头像"></p>
-<hr>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hello world!</span><br><span class="line">你好!</span><br></pre></td></tr></table></figure>
-<hr>
-<blockquote>
-<p>引用</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/04/03/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
   </entry>
 </search>

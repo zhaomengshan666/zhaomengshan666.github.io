@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhaomengshan666.github.io/"/>
-  <updated>2020-04-22T09:10:26.197Z</updated>
+  <updated>2020-05-16T07:05:26.245Z</updated>
   <id>https://zhaomengshan666.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图片插入说明</title>
+    <link href="https://zhaomengshan666.github.io/2020/05/15/Picture/"/>
+    <id>https://zhaomengshan666.github.io/2020/05/15/Picture/</id>
+    <published>2020-05-15T14:49:03.000Z</published>
+    <updated>2020-05-16T07:05:26.245Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;在hexo博客中插入图片&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="博客" scheme="https://zhaomengshan666.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="hexo" scheme="https://zhaomengshan666.github.io/tags/hexo/"/>
+    
+      <category term="Markdown" scheme="https://zhaomengshan666.github.io/tags/Markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>数据集</title>
@@ -38,15 +61,15 @@
   </entry>
   
   <entry>
-    <title>my_first_blog</title>
+    <title>博客使用语法说明</title>
     <link href="https://zhaomengshan666.github.io/2020/04/04/my-first-blog/"/>
     <id>https://zhaomengshan666.github.io/2020/04/04/my-first-blog/</id>
     <published>2020-04-04T05:41:17.000Z</published>
-    <updated>2020-04-04T05:51:34.619Z</updated>
+    <updated>2020-05-15T16:23:20.123Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;我的第一篇文章&quot;&gt;&lt;a href=&quot;#我的第一篇文章&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇文章&quot;&gt;&lt;/a&gt;我的第一篇文章&lt;/h1&gt;
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;为了防止自己不会使用Markdown语法导致写不了博客，特意在此记录，当然还是要多写，多练才是熟悉语法的最好方法。&lt;/p&gt;
     
     </summary>
     
@@ -56,28 +79,7 @@
     
       <category term="hexo" scheme="https://zhaomengshan666.github.io/tags/hexo/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://zhaomengshan666.github.io/2020/04/03/hello-world/"/>
-    <id>https://zhaomengshan666.github.io/2020/04/03/hello-world/</id>
-    <published>2020-04-03T12:57:56.829Z</published>
-    <updated>2020-04-03T12:57:56.829Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-    
+      <category term="Markdown" scheme="https://zhaomengshan666.github.io/tags/Markdown/"/>
     
   </entry>
   
