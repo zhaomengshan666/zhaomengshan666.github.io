@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhaomengshan666.github.io/"/>
-  <updated>2020-05-16T07:05:26.245Z</updated>
+  <updated>2020-05-16T13:49:56.306Z</updated>
   <id>https://zhaomengshan666.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo Next主题背景设置</title>
+    <link href="https://zhaomengshan666.github.io/2020/05/16/BackGround/"/>
+    <id>https://zhaomengshan666.github.io/2020/05/16/BackGround/</id>
+    <published>2020-05-16T13:38:53.000Z</published>
+    <updated>2020-05-16T13:49:56.306Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;Next主题背景图设置，成功于2020年5月16日。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="博客" scheme="https://zhaomengshan666.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="hexo" scheme="https://zhaomengshan666.github.io/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>图片插入说明</title>
