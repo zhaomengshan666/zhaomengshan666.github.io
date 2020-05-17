@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.lvzhou123.cn/"/>
-  <updated>2020-05-16T16:01:28.637Z</updated>
+  <updated>2020-05-17T14:16:23.314Z</updated>
   <id>https://www.lvzhou123.cn/</id>
   
   <author>
@@ -17,25 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>中文</title>
-    <link href="https://www.lvzhou123.cn/2020/05/17/%E4%B8%AD%E6%96%87/"/>
-    <id>https://www.lvzhou123.cn/2020/05/17/%E4%B8%AD%E6%96%87/</id>
-    <published>2020-05-16T16:00:59.000Z</published>
-    <updated>2020-05-16T16:01:28.637Z</updated>
+    <title>Python-zip函数</title>
+    <link href="https://www.lvzhou123.cn/2020/05/17/Python-zip%E5%87%BD%E6%95%B0/"/>
+    <id>https://www.lvzhou123.cn/2020/05/17/Python-zip%E5%87%BD%E6%95%B0/</id>
+    <published>2020-05-17T13:45:29.000Z</published>
+    <updated>2020-05-17T14:16:23.314Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;你好&quot;&gt;&lt;a href=&quot;#你好&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;在计算杨辉三角时，在别人的思路中发现zip函数，遂记之。&lt;/p&gt;
     
     </summary>
     
     
+      <category term="Python" scheme="https://www.lvzhou123.cn/categories/Python/"/>
+    
+    
+      <category term="python" scheme="https://www.lvzhou123.cn/tags/python/"/>
+    
+      <category term="leetcode" scheme="https://www.lvzhou123.cn/tags/leetcode/"/>
     
   </entry>
   
