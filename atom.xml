@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.lvzhou123.cn/"/>
-  <updated>2020-05-25T09:18:56.324Z</updated>
+  <updated>2020-05-26T16:29:20.786Z</updated>
   <id>https://www.lvzhou123.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>morse</title>
+    <link href="https://www.lvzhou123.cn/2020/05/26/morse/"/>
+    <id>https://www.lvzhou123.cn/2020/05/26/morse/</id>
+    <published>2020-05-26T14:24:09.000Z</published>
+    <updated>2020-05-26T16:29:20.786Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;刷CTF题的时候碰到了摩斯密码，由于本科课程中有密码学而且上课也好好听了，但是实在是没有摩斯密码的印象，因此查阅资料后记录下来。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="CTF" scheme="https://www.lvzhou123.cn/categories/CTF/"/>
+    
+    
+      <category term="security" scheme="https://www.lvzhou123.cn/tags/security/"/>
+    
+  </entry>
   
   <entry>
     <title>考研数学</title>
