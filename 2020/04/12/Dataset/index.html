@@ -193,7 +193,7 @@
           <div class="content post posts-expand">
             
 
-    
+      
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -281,6 +281,18 @@
 </blockquote>
 
     </div>
+    
+    <div>
+      
+      <div>
+    
+          <img id="wechat_subscriber_qcode" src="/images/wechat.png" alt="微信公众号" style="width: 200px; max-width: 100%;">	
+          <div style="text-align:center;color: #ccc;font-size:24px;">扫码关注，一起进步！</div>
+    
+</div>
+
+      
+    </div>
 
     
     
@@ -328,6 +340,7 @@
   
   
   
+
 
 
 
@@ -555,15 +568,20 @@
 
 
   
-  <script>
-    (function(){
-      var bp = document.createElement('script');
-      var curProtocol = window.location.protocol.split(':')[0];
-      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(bp, s);
-    })();
-  </script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 
 
 
