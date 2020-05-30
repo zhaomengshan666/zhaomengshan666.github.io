@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.lvzhou123.cn/"/>
-  <updated>2020-05-27T09:09:22.845Z</updated>
+  <updated>2020-05-30T03:03:58.424Z</updated>
   <id>https://www.lvzhou123.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>函数极限的基本性质</title>
+    <link href="https://www.lvzhou123.cn/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/"/>
+    <id>https://www.lvzhou123.cn/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/</id>
+    <published>2020-05-29T13:16:49.000Z</published>
+    <updated>2020-05-30T03:03:58.424Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？&quot;&gt;&lt;a href=&quot;#如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？&quot; class=&quot;headerlink&quot; title=&quot;如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？&quot;&gt;&lt;/a&gt;如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？&lt;/h1&gt;&lt;p&gt;高数第一章函数极限部分的知识。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="考研" scheme="https://www.lvzhou123.cn/categories/%E8%80%83%E7%A0%94/"/>
+    
+    
+      <category term="考研" scheme="https://www.lvzhou123.cn/tags/%E8%80%83%E7%A0%94/"/>
+    
+      <category term="高数" scheme="https://www.lvzhou123.cn/tags/%E9%AB%98%E6%95%B0/"/>
+    
+      <category term="数学" scheme="https://www.lvzhou123.cn/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>栅栏密码</title>
@@ -42,7 +67,7 @@
     <link href="https://www.lvzhou123.cn/2020/05/26/morse/"/>
     <id>https://www.lvzhou123.cn/2020/05/26/morse/</id>
     <published>2020-05-26T14:24:09.000Z</published>
-    <updated>2020-05-26T16:32:04.053Z</updated>
+    <updated>2020-05-29T13:15:57.098Z</updated>
     
     <summary type="html">
     
