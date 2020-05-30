@@ -248,6 +248,24 @@
       </tags>
   </entry>
   <entry>
+    <title>函数极限的基本性质</title>
+    <url>/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/</url>
+    <content><![CDATA[<h1 id="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"><a href="#如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？" class="headerlink" title="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"></a>如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？</h1><p>高数第一章函数极限部分的知识。</p>
+<a id="more"></a>
+<h1 id="函数的保号性"><a href="#函数的保号性" class="headerlink" title="函数的保号性"></a>函数的保号性</h1><p>函数的保号性可以理解为函数在局部范围内函数值的符号保持恒正或恒负。</p>
+<h1 id="函数的局部有界性"><a href="#函数的局部有界性" class="headerlink" title="函数的局部有界性"></a>函数的局部有界性</h1><p>函数的局部有界性指的是在x0处函数左右的一定范围内有界，注意不是全部范围</p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意函数的保号性与局部有界性有界性指的是局部范围内。</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>高数</tag>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>考研数学</title>
     <url>/2020/05/25/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>一战数学一52分，离校线70分差18分，如果有这18分，今年已经研究生上岸了，而且数学刚过B区的国家线，调剂也调剂不成，本校都嫌弃分数低。<br>再来一年吧，在这里记录复习的过程以及采用的指导书。</p>
@@ -266,24 +284,6 @@
       <tags>
         <tag>考研</tag>
         <tag>数学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>函数极限的基本性质</title>
-    <url>/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/</url>
-    <content><![CDATA[<h1 id="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"><a href="#如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？" class="headerlink" title="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"></a>如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？</h1><p>高数第一章函数极限部分的知识。</p>
-<a id="more"></a>
-<h1 id="函数的保号性"><a href="#函数的保号性" class="headerlink" title="函数的保号性"></a>函数的保号性</h1><p>函数的保号性可以理解为函数在局部范围内函数值的符号保持恒正或恒负。</p>
-<h1 id="函数的局部有界性"><a href="#函数的局部有界性" class="headerlink" title="函数的局部有界性"></a>函数的局部有界性</h1><p>函数的局部有界性指的是在x0处函数左右的一定范围内有界，注意不是全部范围</p>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意函数的保号性与局部有界性有界性指的是局部范围内。</p>
-]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>数学</tag>
-        <tag>高数</tag>
       </tags>
   </entry>
   <entry>
