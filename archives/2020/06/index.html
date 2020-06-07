@@ -23,20 +23,15 @@
     var CONFIG = {"hostname":"www.lvzhou123.cn","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="前言栅栏密码是古典密码的一种，本质上是一种置换加密算法，它的特点是保持明文的所有字符不变，只是通过置换将明文中字符的顺序进行改变，从而产生密文。">
-<meta property="og:type" content="article">
-<meta property="og:title" content="栅栏密码">
-<meta property="og:url" content="https://www.lvzhou123.cn/2020/05/27/%E6%A0%85%E6%A0%8F%E5%AF%86%E7%A0%81/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="非对称加密">
+<meta property="og:url" content="https://www.lvzhou123.cn/archives/2020/06/index.html">
 <meta property="og:site_name" content="非对称加密">
-<meta property="og:description" content="前言栅栏密码是古典密码的一种，本质上是一种置换加密算法，它的特点是保持明文的所有字符不变，只是通过置换将明文中字符的顺序进行改变，从而产生密文。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-05-27T08:02:10.000Z">
-<meta property="article:modified_time" content="2020-05-27T09:09:22.845Z">
 <meta property="article:author" content="非对称加密">
-<meta property="article:tag" content="security">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://www.lvzhou123.cn/2020/05/27/%E6%A0%85%E6%A0%8F%E5%AF%86%E7%A0%81/">
+<link rel="canonical" href="https://www.lvzhou123.cn/archives/2020/06/">
 
 
 <script id="page-configurations">
@@ -44,12 +39,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : true,
+    isPost : false,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>栅栏密码 | 非对称加密</title>
+  <title>归档 | 非对称加密</title>
   
 
 
@@ -190,163 +185,56 @@
         <div class="content-wrap">
           
 
-          <div class="content post posts-expand">
+          <div class="content archive">
             
 
-      
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.lvzhou123.cn/2020/05/27/%E6%A0%85%E6%A0%8F%E5%AF%86%E7%A0%81/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/figure0.jpg">
-      <meta itemprop="name" content="非对称加密">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="非对称加密">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          栅栏密码
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-05-27 16:02:10 / 修改时间：17:09:22" itemprop="dateCreated datePublished" datetime="2020-05-27T16:02:10+08:00">2020-05-27</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/CTF/" itemprop="url" rel="index"><span itemprop="name">CTF</span></a>
-                </span>
-            </span>
-
-          
-            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span id="busuanzi_value_page_pv"></span>
-            </span><br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>457</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+  
+  <div class="post-block">
+    <div class="posts-collapse">
+      <div class="collection-title">
+        <span class="collection-header">嗯..! 目前共计 10 篇日志。 继续努力。</span>
+      </div>
 
       
-        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>栅栏密码是古典密码的一种，本质上是一种置换加密算法，它的特点是保持明文的所有字符不变，只是通过置换将明文中字符的顺序进行改变，从而产生密文。</p>
-<a id="more"></a>
-<hr>
-<h1 id="详解"><a href="#详解" class="headerlink" title="详解"></a>详解</h1><p>栅栏密码就是将要加密的字符（明文）分成N个一组，从而组成一个矩阵，再将矩阵按行读取可得最终的密文，举例如下：</p>
-<blockquote>
-<p>将明文：he is a handsome boy 分成四栏加密<br>加密过程：hade<br>        ehsb<br>        iaoo<br>        snmy<br>加密结果：hadeehsbiaoosnmy</p>
-</blockquote>
-<hr>
-<h1 id="变种WWW型栅栏密码"><a href="#变种WWW型栅栏密码" class="headerlink" title="变种WWW型栅栏密码"></a>变种WWW型栅栏密码</h1><p>下面是一个五栏的变种WWW型栅栏密码的加密示例：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">明文：helloworldgoodmorningxxxx</span><br><span class="line">加密过程：</span><br><span class="line">h       l       r       x</span><br><span class="line"> e     r d     o n     x</span><br><span class="line">  l   o   g   m   i   x</span><br><span class="line">   l w     o d     n x</span><br><span class="line">    o       o       g</span><br><span class="line">密文：hlrnerdonilogmiqlwodnxoog</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>栅栏密码似乎有两种不同的类型，在资料收集过程中首先遇到的是第一种栅栏密码的计算方法，但是我实际遇到的问题并不能用第一种来解释，后来翻去外网，看到外网的栅栏密码（篱笆密码）是WWW型的，而我的问题刚好符合。不确定两种方法哪一个更对，但是看起来好像第二种更复杂一些。</p>
-
-    </div>
-    
-    <div>
-      
-      <div>
-    
-          <img id="wechat_subscriber_qcode" src="/images/wechat.png" alt="微信公众号" style="width: 200px; max-width: 100%;">	
-          <div style="text-align:center;color: #ccc;font-size:24px;">扫码关注，一起进步！</div>
-    
-</div>
-
-      
+    <div class="collection-year">
+      <span class="collection-header">2020</span>
     </div>
 
-    
-    
-    
-        
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
 
-<div>
-<ul class="post-copyright">
-  <li class="post-copyright-author">
-    <strong>本文作者： </strong>非对称加密
-  </li>
-  <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="https://www.lvzhou123.cn/2020/05/27/%E6%A0%85%E6%A0%8F%E5%AF%86%E7%A0%81/" title="栅栏密码">https://www.lvzhou123.cn/2020/05/27/栅栏密码/</a>
-  </li>
-  <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
-  </li>
-</ul>
-</div>
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-06-07T18:51:03+08:00"
+              content="2020-06-07">
+          06-07
+        </time>
+      </div>
 
+      <div class="post-title">
+          <a class="post-title-link" href="/2020/06/07/test/" itemprop="url">
+            <span itemprop="name">test</span>
+          </a>
+      </div>
 
-      <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/security/" rel="tag"><i class="fa fa-tag"></i> security</a>
-          </div>
-
-        
-
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2020/05/26/morse/" rel="prev" title="摩斯密码">
-      <i class="fa fa-chevron-left"></i> 摩斯密码
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/" rel="next" title="函数极限的基本性质">
-      函数极限的基本性质 <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
-      </footer>
-    
+    </header>
   </article>
+
+
+    </div>
+  </div>
   
   
   
 
+  
 
 
 
           </div>
           
-    <div class="comments" id="gitalk-container"></div>
-
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -393,7 +281,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#详解"><span class="nav-number">2.</span> <span class="nav-text">详解</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#变种WWW型栅栏密码"><span class="nav-number">3.</span> <span class="nav-text">变种WWW型栅栏密码</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#后记"><span class="nav-number">4.</span> <span class="nav-text">后记</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -604,25 +491,6 @@
 
   
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : '50e15bcee3d7a1d0fd24',
-      clientSecret: 'a79bbc135d35a466bf23ca89cacfad04c60ad568',
-      repo        : 'gitalk-comments',
-      owner       : 'zhaomengshan666',
-      admin       : ['zhaomengshan666'],
-      id          : '0ec808b5c024b46f316673cf4e5986e8',
-        language: 'zh-CN',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
-</script>
 
 
   
