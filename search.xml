@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo Next主题背景设置</title>
+    <url>/2020/05/16/BackGround/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Next主题背景图设置，成功于2020年5月16日。</p>
+<a id="more"></a>
+
+<h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><ul>
+<li>首先在Hexo根目录下的source文件下新建文件夹（与 _posts文件夹平级）创建文件夹 <strong>_data</strong>。</li>
+<li>然后在文件夹下创建名为<strong>styles.styl</strong>的文件，文件内部填充如下：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">    background:url(https:&#x2F;&#x2F;timgsa.baidu.com&#x2F;timg?image&amp;quality&#x3D;80&amp;size&#x3D;b9999_10000&amp;sec&#x3D;1589645962122&amp;di&#x3D;bcf815bc605f1abb670744c81f26fd0c&amp;imgtype&#x3D;0&amp;src&#x3D;http%3A%2F%2Fwww.51pptmoban.com%2Fd%2Ffile%2F2012%2F08%2F21%2F4299a7be487f9611e60ee34f86a06f7f.jpg);&#x2F;&#x2F;背景图片地址</span><br><span class="line">    background-repeat: no-repeat;</span><br><span class="line">    background-attachment:fixed; &#x2F;&#x2F;不重复</span><br><span class="line">    background-size: cover;      &#x2F;&#x2F;填充</span><br><span class="line">    background-position:50% 50%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 页面头样式属性</span><br><span class="line">.header-inner &#123;</span><br><span class="line">  &#x2F;&#x2F; 也可以同时定义背景色</span><br><span class="line">  &#x2F;&#x2F; background: #ddd </span><br><span class="line">  &#x2F;&#x2F; 透明度</span><br><span class="line">  opacity: 0.8;</span><br><span class="line">  z-index: 10;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; sidebar侧边工具栏样式属性</span><br><span class="line">.sidebar&#123;</span><br><span class="line">    &#x2F;&#x2F; 动画过渡时间</span><br><span class="line">	transition-duration: 0.4s;</span><br><span class="line">    &#x2F;&#x2F; 透明度</span><br><span class="line">	opacity: 0.8;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 标题样式</span><br><span class="line">.posts-expand .post-title-link &#123;</span><br><span class="line">	&#x2F;&#x2F; 设置字体颜色</span><br><span class="line">	color: #222;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;文章主题透明度</span><br><span class="line">.main-inner &#123; </span><br><span class="line">   &#x2F;&#x2F; margin-top: 60px;</span><br><span class="line">   &#x2F;&#x2F; padding: 60px 60px 60px 60px;</span><br><span class="line">    opacity: 0.8;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<hr>
+<h1 id="启用"><a href="#启用" class="headerlink" title="启用"></a>启用</h1><p>在<strong>Next主题</strong>文件下的 _config.yml文件中搜索 “custom_file_path:”，将style前的 # 删除。</p>
+<h1 id="尾记"><a href="#尾记" class="headerlink" title="尾记"></a>尾记</h1><p>原理不明，参考而得</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数据集</title>
     <url>/2020/04/12/Dataset/</url>
     <content><![CDATA[<h1 id="常用数据集查询平台"><a href="#常用数据集查询平台" class="headerlink" title="常用数据集查询平台"></a>常用数据集查询平台</h1><a id="more"></a>
@@ -47,29 +70,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo Next主题背景设置</title>
-    <url>/2020/05/16/BackGround/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Next主题背景图设置，成功于2020年5月16日。</p>
-<a id="more"></a>
-
-<h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><ul>
-<li>首先在Hexo根目录下的source文件下新建文件夹（与 _posts文件夹平级）创建文件夹 <strong>_data</strong>。</li>
-<li>然后在文件夹下创建名为<strong>styles.styl</strong>的文件，文件内部填充如下：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">    background:url(https:&#x2F;&#x2F;timgsa.baidu.com&#x2F;timg?image&amp;quality&#x3D;80&amp;size&#x3D;b9999_10000&amp;sec&#x3D;1589645962122&amp;di&#x3D;bcf815bc605f1abb670744c81f26fd0c&amp;imgtype&#x3D;0&amp;src&#x3D;http%3A%2F%2Fwww.51pptmoban.com%2Fd%2Ffile%2F2012%2F08%2F21%2F4299a7be487f9611e60ee34f86a06f7f.jpg);&#x2F;&#x2F;背景图片地址</span><br><span class="line">    background-repeat: no-repeat;</span><br><span class="line">    background-attachment:fixed; &#x2F;&#x2F;不重复</span><br><span class="line">    background-size: cover;      &#x2F;&#x2F;填充</span><br><span class="line">    background-position:50% 50%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 页面头样式属性</span><br><span class="line">.header-inner &#123;</span><br><span class="line">  &#x2F;&#x2F; 也可以同时定义背景色</span><br><span class="line">  &#x2F;&#x2F; background: #ddd </span><br><span class="line">  &#x2F;&#x2F; 透明度</span><br><span class="line">  opacity: 0.8;</span><br><span class="line">  z-index: 10;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; sidebar侧边工具栏样式属性</span><br><span class="line">.sidebar&#123;</span><br><span class="line">    &#x2F;&#x2F; 动画过渡时间</span><br><span class="line">	transition-duration: 0.4s;</span><br><span class="line">    &#x2F;&#x2F; 透明度</span><br><span class="line">	opacity: 0.8;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 标题样式</span><br><span class="line">.posts-expand .post-title-link &#123;</span><br><span class="line">	&#x2F;&#x2F; 设置字体颜色</span><br><span class="line">	color: #222;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;文章主题透明度</span><br><span class="line">.main-inner &#123; </span><br><span class="line">   &#x2F;&#x2F; margin-top: 60px;</span><br><span class="line">   &#x2F;&#x2F; padding: 60px 60px 60px 60px;</span><br><span class="line">    opacity: 0.8;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<hr>
-<h1 id="启用"><a href="#启用" class="headerlink" title="启用"></a>启用</h1><p>在<strong>Next主题</strong>文件下的 _config.yml文件中搜索 “custom_file_path:”，将style前的 # 删除。</p>
-<h1 id="尾记"><a href="#尾记" class="headerlink" title="尾记"></a>尾记</h1><p>原理不明，参考而得</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -133,24 +133,6 @@
       </categories>
       <tags>
         <tag>security</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>函数极限的基本性质</title>
-    <url>/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/</url>
-    <content><![CDATA[<h1 id="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"><a href="#如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？" class="headerlink" title="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"></a>如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？</h1><p>高数第一章函数极限部分的知识。</p>
-<a id="more"></a>
-<h1 id="函数的保号性"><a href="#函数的保号性" class="headerlink" title="函数的保号性"></a>函数的保号性</h1><p>函数的保号性可以理解为函数在局部范围内函数值的符号保持恒正或恒负。</p>
-<h1 id="函数的局部有界性"><a href="#函数的局部有界性" class="headerlink" title="函数的局部有界性"></a>函数的局部有界性</h1><p>函数的局部有界性指的是在x0处函数左右的一定范围内有界，注意不是全部范围</p>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意函数的保号性与局部有界性有界性指的是局部范围内。</p>
-]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>高数</tag>
-        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
@@ -263,6 +245,24 @@
       <tags>
         <tag>hexo</tag>
         <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>函数极限的基本性质</title>
+    <url>/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/</url>
+    <content><![CDATA[<h1 id="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"><a href="#如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？" class="headerlink" title="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"></a>如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？</h1><p>高数第一章函数极限部分的知识。</p>
+<a id="more"></a>
+<h1 id="函数的保号性"><a href="#函数的保号性" class="headerlink" title="函数的保号性"></a>函数的保号性</h1><p>函数的保号性可以理解为函数在局部范围内函数值的符号保持恒正或恒负。</p>
+<h1 id="函数的局部有界性"><a href="#函数的局部有界性" class="headerlink" title="函数的局部有界性"></a>函数的局部有界性</h1><p>函数的局部有界性指的是在x0处函数左右的一定范围内有界，注意不是全部范围</p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意函数的保号性与局部有界性有界性指的是局部范围内。</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>高数</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
