@@ -43,87 +43,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Python-zip函数</title>
-    <url>/2020/05/17/Python-zip%E5%87%BD%E6%95%B0/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在计算杨辉三角时，在别人的思路中发现zip函数，遂记之。</p>
-<a id="more"></a>
-<hr>
-<h1 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h1><h2 id="zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。"><a href="#zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。" class="headerlink" title="zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。"></a>zip函数的目的是将若干<strong>列表</strong>的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。</h2><h1 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt;a &#x3D; [1,2,3]</span><br><span class="line">&gt;&gt;&gt;b &#x3D; [4,5,6]</span><br><span class="line">&gt;&gt;&gt;c &#x3D; [7,8,9]</span><br><span class="line">&gt;&gt;&gt;zip1 &#x3D; zip(a,b,c)</span><br><span class="line">&gt;&gt;&gt;list(zip1)</span><br><span class="line">[(1, 4, 7), (2, 5, 8), (3, 6, 9)]</span><br></pre></td></tr></table></figure>
-<hr>
-<h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><p>1.zip合并时，假设列表的长短不一样，则合并时以最短的列表为主。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; a &#x3D; [1,2,3]</span><br><span class="line">&gt;&gt;&gt; b &#x3D; [4,5,6,7,8,9]</span><br><span class="line">&gt;&gt;&gt; zip1 &#x3D; zip(a,b)</span><br><span class="line">&gt;&gt;&gt; list(zip1)</span><br><span class="line">[(1, 4), (2, 5), (3, 6)]</span><br></pre></td></tr></table></figure>
-<p>2.zip(*)与zip函数相反，该操作将元组对象返回成列表的形式</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; c,d &#x3D; zip(*zip1)</span><br><span class="line">&gt;&gt;&gt; c</span><br><span class="line">(1, 2, 3)</span><br><span class="line">&gt;&gt;&gt; d</span><br><span class="line">(4, 5, 6)</span><br></pre></td></tr></table></figure>
-
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>无</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>摩斯密码</title>
-    <url>/2020/05/26/morse/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>刷CTF题的时候碰到了摩斯密码，由于本科课程中有密码学而且上课也好好听了，但是实在是没有摩斯密码的印象，因此查阅资料后记录下来。</p>
-<a id="more"></a>
-<hr>
-<h1 id="组成"><a href="#组成" class="headerlink" title="组成"></a>组成</h1><p>摩尔斯电码只使用零和一两种状态的二进制代码，短促的点信号’・’，读“滴”（Dit），在二进制中使用’0’来表示; 保持一定时间的长信号’ - ‘，读“嗒”（Dah）,在二进制中用’1’表示。</p>
-<hr>
-<h1 id="对照表"><a href="#对照表" class="headerlink" title="对照表"></a>对照表</h1><p><img src="/2020/05/26/morse/%E5%AF%B9%E7%85%A7%E8%A1%A8.png" alt="对照表"></p>
-<hr>
-<h1 id="助记图"><a href="#助记图" class="headerlink" title="助记图"></a>助记图</h1><p><img src="/2020/05/26/morse/%E5%8A%A9%E8%AE%B0%E5%9B%BE.png" alt="助记图"></p>
-<hr>
-<h1 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h1><blockquote>
-<p>原题：11 111 010 000 0 1010 111 100 0 00 000 000 111 00 10 1 0 010 0 000 1 00 10 110<br>翻译前：– — .-. … . -.-. — -.. . .. … … — .. -. - . .-. . … - .. -. –.<br>翻译后：MORSECODEISSOINTERESTING(摩斯密码真有趣)</p>
-</blockquote>
-<hr>
-<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><ul>
-<li>1.需要额外记住并使用的三个讯号：  <ul>
-<li>通讯前一定要记得使用“开始”讯号“—・—・—”。</li>
-<li>如果通讯途中发生错误，要先发出表示“错误”的讯号“・・・・・・”，再传递正确的讯号。</li>
-<li>通讯结束时，一定要记得加上表示“结束”的讯号“・・・—・”。</li>
-</ul>
-</li>
-<li>2.<strong>SOS</strong><ul>
-<li>S.O.S是国际摩尔斯电码救难信号，并非任何单词的缩写。鉴于当时海难事件频繁发生，往往由于不能及时发出求救信号和最快组织施救，结果造成很大的人员伤亡和财产损失，国际无线电报公约组织于1908年正式将它确定为国际通用海难求救信号。</li>
-<li>这三个字母组合没有任何实际意义，只是因为它的电码“ …—…”（三个圆点，三个破折号，然后再加三个圆点）在电报中是发报方最容易发出，接报方最容易辨识的电码。</li>
-<li>光线发射方法为：短光——长光——短光</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>摩斯密码还是很有趣的，虽然现在不怎么用了，唯一可能有用的就是考试传答案了，手动滑稽。</p>
-]]></content>
-      <categories>
-        <category>CTF</category>
-      </categories>
-      <tags>
-        <tag>security</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>函数极限的基本性质</title>
-    <url>/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/</url>
-    <content><![CDATA[<h1 id="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"><a href="#如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？" class="headerlink" title="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"></a>如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？</h1><p>高数第一章函数极限部分的知识。</p>
-<a id="more"></a>
-<h1 id="函数的保号性"><a href="#函数的保号性" class="headerlink" title="函数的保号性"></a>函数的保号性</h1><p>函数的保号性可以理解为函数在局部范围内函数值的符号保持恒正或恒负。</p>
-<h1 id="函数的局部有界性"><a href="#函数的局部有界性" class="headerlink" title="函数的局部有界性"></a>函数的局部有界性</h1><p>函数的局部有界性指的是在x0处函数左右的一定范围内有界，注意不是全部范围</p>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意函数的保号性与局部有界性有界性指的是局部范围内。</p>
-]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>高数</tag>
-        <tag>数学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>图片插入说明</title>
     <url>/2020/05/15/Picture/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在hexo博客中插入图片</p>
@@ -151,6 +70,29 @@
       <tags>
         <tag>hexo</tag>
         <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python-zip函数</title>
+    <url>/2020/05/17/Python-zip%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在计算杨辉三角时，在别人的思路中发现zip函数，遂记之。</p>
+<a id="more"></a>
+<hr>
+<h1 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h1><h2 id="zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。"><a href="#zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。" class="headerlink" title="zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。"></a>zip函数的目的是将若干<strong>列表</strong>的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。</h2><h1 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt;a &#x3D; [1,2,3]</span><br><span class="line">&gt;&gt;&gt;b &#x3D; [4,5,6]</span><br><span class="line">&gt;&gt;&gt;c &#x3D; [7,8,9]</span><br><span class="line">&gt;&gt;&gt;zip1 &#x3D; zip(a,b,c)</span><br><span class="line">&gt;&gt;&gt;list(zip1)</span><br><span class="line">[(1, 4, 7), (2, 5, 8), (3, 6, 9)]</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><p>1.zip合并时，假设列表的长短不一样，则合并时以最短的列表为主。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; a &#x3D; [1,2,3]</span><br><span class="line">&gt;&gt;&gt; b &#x3D; [4,5,6,7,8,9]</span><br><span class="line">&gt;&gt;&gt; zip1 &#x3D; zip(a,b)</span><br><span class="line">&gt;&gt;&gt; list(zip1)</span><br><span class="line">[(1, 4), (2, 5), (3, 6)]</span><br></pre></td></tr></table></figure>
+<p>2.zip(*)与zip函数相反，该操作将元组对象返回成列表的形式</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; c,d &#x3D; zip(*zip1)</span><br><span class="line">&gt;&gt;&gt; c</span><br><span class="line">(1, 2, 3)</span><br><span class="line">&gt;&gt;&gt; d</span><br><span class="line">(4, 5, 6)</span><br></pre></td></tr></table></figure>
+
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>无</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>leetcode</tag>
       </tags>
   </entry>
   <entry>
@@ -263,6 +205,93 @@
       <tags>
         <tag>hexo</tag>
         <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>摩斯密码</title>
+    <url>/2020/05/26/morse/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>刷CTF题的时候碰到了摩斯密码，由于本科课程中有密码学而且上课也好好听了，但是实在是没有摩斯密码的印象，因此查阅资料后记录下来。</p>
+<a id="more"></a>
+<hr>
+<h1 id="组成"><a href="#组成" class="headerlink" title="组成"></a>组成</h1><p>摩尔斯电码只使用零和一两种状态的二进制代码，短促的点信号’・’，读“滴”（Dit），在二进制中使用’0’来表示; 保持一定时间的长信号’ - ‘，读“嗒”（Dah）,在二进制中用’1’表示。</p>
+<hr>
+<h1 id="对照表"><a href="#对照表" class="headerlink" title="对照表"></a>对照表</h1><p><img src="/2020/05/26/morse/%E5%AF%B9%E7%85%A7%E8%A1%A8.png" alt="对照表"></p>
+<hr>
+<h1 id="助记图"><a href="#助记图" class="headerlink" title="助记图"></a>助记图</h1><p><img src="/2020/05/26/morse/%E5%8A%A9%E8%AE%B0%E5%9B%BE.png" alt="助记图"></p>
+<hr>
+<h1 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h1><blockquote>
+<p>原题：11 111 010 000 0 1010 111 100 0 00 000 000 111 00 10 1 0 010 0 000 1 00 10 110<br>翻译前：– — .-. … . -.-. — -.. . .. … … — .. -. - . .-. . … - .. -. –.<br>翻译后：MORSECODEISSOINTERESTING(摩斯密码真有趣)</p>
+</blockquote>
+<hr>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><ul>
+<li>1.需要额外记住并使用的三个讯号：  <ul>
+<li>通讯前一定要记得使用“开始”讯号“—・—・—”。</li>
+<li>如果通讯途中发生错误，要先发出表示“错误”的讯号“・・・・・・”，再传递正确的讯号。</li>
+<li>通讯结束时，一定要记得加上表示“结束”的讯号“・・・—・”。</li>
+</ul>
+</li>
+<li>2.<strong>SOS</strong><ul>
+<li>S.O.S是国际摩尔斯电码救难信号，并非任何单词的缩写。鉴于当时海难事件频繁发生，往往由于不能及时发出求救信号和最快组织施救，结果造成很大的人员伤亡和财产损失，国际无线电报公约组织于1908年正式将它确定为国际通用海难求救信号。</li>
+<li>这三个字母组合没有任何实际意义，只是因为它的电码“ …—…”（三个圆点，三个破折号，然后再加三个圆点）在电报中是发报方最容易发出，接报方最容易辨识的电码。</li>
+<li>光线发射方法为：短光——长光——短光</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>摩斯密码还是很有趣的，虽然现在不怎么用了，唯一可能有用的就是考试传答案了，手动滑稽。</p>
+]]></content>
+      <categories>
+        <category>CTF</category>
+      </categories>
+      <tags>
+        <tag>security</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github无法访问的解决办法</title>
+    <url>/2020/06/07/visit-github/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>记录解决GitHub无法访问的过程，可用。</p>
+<a id="more"></a>
+<p>操作系统：Windows10</p>
+<hr>
+<h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h1><p>打开hosts目录：C:\Windows\System32\drivers\etc</p>
+<hr>
+<h1 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h1><p>复制hosts文件到桌面，添加下列信息：</p>
+<blockquote>
+<p>#github<br>192.30.253.113    github.com<br>151.101.185.194     github.global.ssl.fastly.net</p>
+</blockquote>
+<hr>
+<h1 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h1><p>使用修改后的hosts文件覆盖原文件。</p>
+<hr>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意：github.com和github.global.ssl.fastly.net对应ip可能因机器不同而不相同，可以使用该站点查询对应域名的ip<br>[网站链接]（<a href="https://www.ipaddress.com/ip-lookup）" target="_blank" rel="noopener">https://www.ipaddress.com/ip-lookup）</a></p>
+<blockquote>
+<p>参考链接：<a href="https://www.jianshu.com/p/1c0a3321cf7f" target="_blank" rel="noopener">https://www.jianshu.com/p/1c0a3321cf7f</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>github</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+        <tag>solution</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>函数极限的基本性质</title>
+    <url>/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/</url>
+    <content><![CDATA[<h1 id="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"><a href="#如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？" class="headerlink" title="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"></a>如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？</h1><p>高数第一章函数极限部分的知识。</p>
+<a id="more"></a>
+<h1 id="函数的保号性"><a href="#函数的保号性" class="headerlink" title="函数的保号性"></a>函数的保号性</h1><p>函数的保号性可以理解为函数在局部范围内函数值的符号保持恒正或恒负。</p>
+<h1 id="函数的局部有界性"><a href="#函数的局部有界性" class="headerlink" title="函数的局部有界性"></a>函数的局部有界性</h1><p>函数的局部有界性指的是在x0处函数左右的一定范围内有界，注意不是全部范围</p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意函数的保号性与局部有界性有界性指的是局部范围内。</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>高数</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.lvzhou123.cn/"/>
-  <updated>2020-05-30T03:03:58.424Z</updated>
+  <updated>2020-06-07T12:11:58.353Z</updated>
   <id>https://www.lvzhou123.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Github无法访问的解决办法</title>
+    <link href="https://www.lvzhou123.cn/2020/06/07/visit-github/"/>
+    <id>https://www.lvzhou123.cn/2020/06/07/visit-github/</id>
+    <published>2020-06-07T12:04:41.000Z</published>
+    <updated>2020-06-07T12:11:58.353Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;记录解决GitHub无法访问的过程，可用。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="github" scheme="https://www.lvzhou123.cn/categories/github/"/>
+    
+    
+      <category term="github" scheme="https://www.lvzhou123.cn/tags/github/"/>
+    
+      <category term="solution" scheme="https://www.lvzhou123.cn/tags/solution/"/>
+    
+  </entry>
   
   <entry>
     <title>函数极限的基本性质</title>
