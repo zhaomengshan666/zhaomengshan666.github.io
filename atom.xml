@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.lvzhou123.cn/"/>
-  <updated>2020-12-10T11:17:06.542Z</updated>
+  <updated>2021-04-16T09:42:08.323Z</updated>
   <id>https://www.lvzhou123.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML中form标签下enctype属性的使用</title>
+    <link href="https://www.lvzhou123.cn/2021/04/16/HTML-form-enctype/"/>
+    <id>https://www.lvzhou123.cn/2021/04/16/HTML-form-enctype/</id>
+    <published>2021-04-16T09:24:31.000Z</published>
+    <updated>2021-04-16T09:42:08.323Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h1&gt;&lt;p&gt;enctype属性是将指定的数据回发到服务器时，浏览器所使用的编码类型&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="https://www.lvzhou123.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="HTML" scheme="https://www.lvzhou123.cn/tags/HTML/"/>
+    
+  </entry>
   
   <entry>
     <title>2020年12月10日 雾</title>
