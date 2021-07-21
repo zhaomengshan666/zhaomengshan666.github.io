@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhaomengshan.website/"/>
-  <updated>2021-07-21T09:40:36.719Z</updated>
+  <updated>2021-07-21T10:34:00.085Z</updated>
   <id>https://www.zhaomengshan.website/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>通达OA文件上传漏洞</title>
+    <link href="https://www.zhaomengshan.website/2021/07/21/%E9%80%9A%E8%BE%BEOA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/"/>
+    <id>https://www.zhaomengshan.website/2021/07/21/%E9%80%9A%E8%BE%BEOA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/</id>
+    <published>2021-07-21T10:18:22.000Z</published>
+    <updated>2021-07-21T10:34:00.085Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;注：生产环境下严禁使用本文中的POC&lt;/strong&gt;！！！&lt;/p&gt;
+&lt;h1 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h1&gt;&lt;p&gt;OA版本：11.3.200106&lt;/p&gt;
+&lt;p&gt;OA下载：&lt;a href=&quot;https://www.aliyundrive.com/s/TTnoqvJfs8z&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.aliyundrive.com/s/TTnoqvJfs8z&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;POC：&lt;a href=&quot;https://github.com/admintony/TongdaRCE&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/admintony/TongdaRCE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;服务器：Windows 7&lt;/p&gt;
+&lt;p&gt;攻击机：Windows 10&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="渗透测试" scheme="https://www.zhaomengshan.website/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="security" scheme="https://www.zhaomengshan.website/tags/security/"/>
+    
+  </entry>
   
   <entry>
     <title>通达OA任意用户登录</title>
@@ -170,9 +196,9 @@
     
       <category term="考研" scheme="https://www.zhaomengshan.website/tags/%E8%80%83%E7%A0%94/"/>
     
-      <category term="高数" scheme="https://www.zhaomengshan.website/tags/%E9%AB%98%E6%95%B0/"/>
-    
       <category term="数学" scheme="https://www.zhaomengshan.website/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="高数" scheme="https://www.zhaomengshan.website/tags/%E9%AB%98%E6%95%B0/"/>
     
   </entry>
   
