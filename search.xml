@@ -81,6 +81,44 @@
       </tags>
   </entry>
   <entry>
+    <title>想法</title>
+    <url>/2020/06/20/idea/</url>
+    <content><![CDATA[<h1 id="记录一些奇奇怪怪的想法"><a href="#记录一些奇奇怪怪的想法" class="headerlink" title="记录一些奇奇怪怪的想法"></a>记录一些奇奇怪怪的想法</h1><p>有些时候经常会有一些比较有趣的想法，但是不久之后可能就会忘记吧,所以记录下来，有时间就来看看。</p>
+<a id="more"></a>
+
+<h1 id="想法：时光邮局"><a href="#想法：时光邮局" class="headerlink" title="想法：时光邮局"></a>想法：时光邮局</h1><p>可以尝试做一个项目，就是当时间到达指定的时间时，能够自动给之前设定好的邮箱发（制定好的）邮件，让自己在未来保持清醒，看看自己是否达到自己当初的期望。</p>
+]]></content>
+      <categories>
+        <category>idea</category>
+      </categories>
+      <tags>
+        <tag>想法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python-zip函数</title>
+    <url>/2020/05/17/Python-zip%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在计算杨辉三角时，在别人的思路中发现zip函数，遂记之。</p>
+<a id="more"></a>
+<hr>
+<h1 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h1><h2 id="zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。"><a href="#zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。" class="headerlink" title="zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。"></a>zip函数的目的是将若干<strong>列表</strong>的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。</h2><h1 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt;a &#x3D; [1,2,3]</span><br><span class="line">&gt;&gt;&gt;b &#x3D; [4,5,6]</span><br><span class="line">&gt;&gt;&gt;c &#x3D; [7,8,9]</span><br><span class="line">&gt;&gt;&gt;zip1 &#x3D; zip(a,b,c)</span><br><span class="line">&gt;&gt;&gt;list(zip1)</span><br><span class="line">[(1, 4, 7), (2, 5, 8), (3, 6, 9)]</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><p>1.zip合并时，假设列表的长短不一样，则合并时以最短的列表为主。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; a &#x3D; [1,2,3]</span><br><span class="line">&gt;&gt;&gt; b &#x3D; [4,5,6,7,8,9]</span><br><span class="line">&gt;&gt;&gt; zip1 &#x3D; zip(a,b)</span><br><span class="line">&gt;&gt;&gt; list(zip1)</span><br><span class="line">[(1, 4), (2, 5), (3, 6)]</span><br></pre></td></tr></table></figure>
+<p>2.zip(*)与zip函数相反，该操作将元组对象返回成列表的形式</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; c,d &#x3D; zip(*zip1)</span><br><span class="line">&gt;&gt;&gt; c</span><br><span class="line">(1, 2, 3)</span><br><span class="line">&gt;&gt;&gt; d</span><br><span class="line">(4, 5, 6)</span><br></pre></td></tr></table></figure>
+
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>无</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>图片插入说明</title>
     <url>/2020/05/15/Picture/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在hexo博客中插入图片</p>
@@ -108,44 +146,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python-zip函数</title>
-    <url>/2020/05/17/Python-zip%E5%87%BD%E6%95%B0/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在计算杨辉三角时，在别人的思路中发现zip函数，遂记之。</p>
-<a id="more"></a>
-<hr>
-<h1 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h1><h2 id="zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。"><a href="#zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。" class="headerlink" title="zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。"></a>zip函数的目的是将若干<strong>列表</strong>的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。</h2><h1 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt;a &#x3D; [1,2,3]</span><br><span class="line">&gt;&gt;&gt;b &#x3D; [4,5,6]</span><br><span class="line">&gt;&gt;&gt;c &#x3D; [7,8,9]</span><br><span class="line">&gt;&gt;&gt;zip1 &#x3D; zip(a,b,c)</span><br><span class="line">&gt;&gt;&gt;list(zip1)</span><br><span class="line">[(1, 4, 7), (2, 5, 8), (3, 6, 9)]</span><br></pre></td></tr></table></figure>
-<hr>
-<h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><p>1.zip合并时，假设列表的长短不一样，则合并时以最短的列表为主。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; a &#x3D; [1,2,3]</span><br><span class="line">&gt;&gt;&gt; b &#x3D; [4,5,6,7,8,9]</span><br><span class="line">&gt;&gt;&gt; zip1 &#x3D; zip(a,b)</span><br><span class="line">&gt;&gt;&gt; list(zip1)</span><br><span class="line">[(1, 4), (2, 5), (3, 6)]</span><br></pre></td></tr></table></figure>
-<p>2.zip(*)与zip函数相反，该操作将元组对象返回成列表的形式</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; c,d &#x3D; zip(*zip1)</span><br><span class="line">&gt;&gt;&gt; c</span><br><span class="line">(1, 2, 3)</span><br><span class="line">&gt;&gt;&gt; d</span><br><span class="line">(4, 5, 6)</span><br></pre></td></tr></table></figure>
-
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>无</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>想法</title>
-    <url>/2020/06/20/idea/</url>
-    <content><![CDATA[<h1 id="记录一些奇奇怪怪的想法"><a href="#记录一些奇奇怪怪的想法" class="headerlink" title="记录一些奇奇怪怪的想法"></a>记录一些奇奇怪怪的想法</h1><p>有些时候经常会有一些比较有趣的想法，但是不久之后可能就会忘记吧,所以记录下来，有时间就来看看。</p>
-<a id="more"></a>
-
-<h1 id="想法：时光邮局"><a href="#想法：时光邮局" class="headerlink" title="想法：时光邮局"></a>想法：时光邮局</h1><p>可以尝试做一个项目，就是当时间到达指定的时间时，能够自动给之前设定好的邮箱发（制定好的）邮件，让自己在未来保持清醒，看看自己是否达到自己当初的期望。</p>
-]]></content>
-      <categories>
-        <category>idea</category>
-      </categories>
-      <tags>
-        <tag>想法</tag>
       </tags>
   </entry>
   <entry>
@@ -348,6 +348,30 @@
       </tags>
   </entry>
   <entry>
+    <title>栅栏密码</title>
+    <url>/2020/05/27/%E6%A0%85%E6%A0%8F%E5%AF%86%E7%A0%81/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>栅栏密码是古典密码的一种，本质上是一种置换加密算法，它的特点是保持明文的所有字符不变，只是通过置换将明文中字符的顺序进行改变，从而产生密文。</p>
+<a id="more"></a>
+<hr>
+<h1 id="详解"><a href="#详解" class="headerlink" title="详解"></a>详解</h1><p>栅栏密码就是将要加密的字符（明文）分成N个一组，从而组成一个矩阵，再将矩阵按行读取可得最终的密文，举例如下：</p>
+<blockquote>
+<p>将明文：he is a handsome boy 分成四栏加密<br>加密过程：hade<br>        ehsb<br>        iaoo<br>        snmy<br>加密结果：hadeehsbiaoosnmy</p>
+</blockquote>
+<hr>
+<h1 id="变种WWW型栅栏密码"><a href="#变种WWW型栅栏密码" class="headerlink" title="变种WWW型栅栏密码"></a>变种WWW型栅栏密码</h1><p>下面是一个五栏的变种WWW型栅栏密码的加密示例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">明文：helloworldgoodmorningxxxx</span><br><span class="line">加密过程：</span><br><span class="line">h       l       r       x</span><br><span class="line"> e     r d     o n     x</span><br><span class="line">  l   o   g   m   i   x</span><br><span class="line">   l w     o d     n x</span><br><span class="line">    o       o       g</span><br><span class="line">密文：hlrnerdonilogmiqlwodnxoog</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>栅栏密码似乎有两种不同的类型，在资料收集过程中首先遇到的是第一种栅栏密码的计算方法，但是我实际遇到的问题并不能用第一种来解释，后来翻去外网，看到外网的栅栏密码（篱笆密码）是WWW型的，而我的问题刚好符合。不确定两种方法哪一个更对，但是看起来好像第二种更复杂一些。</p>
+]]></content>
+      <categories>
+        <category>CTF</category>
+      </categories>
+      <tags>
+        <tag>security</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>考研数学</title>
     <url>/2020/05/25/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>一战数学一52分，离校线70分差18分，如果有这18分，今年已经研究生上岸了，而且数学刚过B区的国家线，调剂也调剂不成，本校都嫌弃分数低。<br>再来一年吧，在这里记录复习的过程以及采用的指导书。</p>
@@ -388,30 +412,6 @@
       </categories>
       <tags>
         <tag>总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>栅栏密码</title>
-    <url>/2020/05/27/%E6%A0%85%E6%A0%8F%E5%AF%86%E7%A0%81/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>栅栏密码是古典密码的一种，本质上是一种置换加密算法，它的特点是保持明文的所有字符不变，只是通过置换将明文中字符的顺序进行改变，从而产生密文。</p>
-<a id="more"></a>
-<hr>
-<h1 id="详解"><a href="#详解" class="headerlink" title="详解"></a>详解</h1><p>栅栏密码就是将要加密的字符（明文）分成N个一组，从而组成一个矩阵，再将矩阵按行读取可得最终的密文，举例如下：</p>
-<blockquote>
-<p>将明文：he is a handsome boy 分成四栏加密<br>加密过程：hade<br>        ehsb<br>        iaoo<br>        snmy<br>加密结果：hadeehsbiaoosnmy</p>
-</blockquote>
-<hr>
-<h1 id="变种WWW型栅栏密码"><a href="#变种WWW型栅栏密码" class="headerlink" title="变种WWW型栅栏密码"></a>变种WWW型栅栏密码</h1><p>下面是一个五栏的变种WWW型栅栏密码的加密示例：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">明文：helloworldgoodmorningxxxx</span><br><span class="line">加密过程：</span><br><span class="line">h       l       r       x</span><br><span class="line"> e     r d     o n     x</span><br><span class="line">  l   o   g   m   i   x</span><br><span class="line">   l w     o d     n x</span><br><span class="line">    o       o       g</span><br><span class="line">密文：hlrnerdonilogmiqlwodnxoog</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>栅栏密码似乎有两种不同的类型，在资料收集过程中首先遇到的是第一种栅栏密码的计算方法，但是我实际遇到的问题并不能用第一种来解释，后来翻去外网，看到外网的栅栏密码（篱笆密码）是WWW型的，而我的问题刚好符合。不确定两种方法哪一个更对，但是看起来好像第二种更复杂一些。</p>
-]]></content>
-      <categories>
-        <category>CTF</category>
-      </categories>
-      <tags>
-        <tag>security</tag>
       </tags>
   </entry>
   <entry>
