@@ -41,25 +41,6 @@
       </tags>
   </entry>
   <entry>
-    <title>数据集</title>
-    <url>/2020/04/12/Dataset/</url>
-    <content><![CDATA[<h1 id="常用数据集查询平台"><a href="#常用数据集查询平台" class="headerlink" title="常用数据集查询平台"></a>常用数据集查询平台</h1><a id="more"></a>
-<blockquote>
-<p>1.北京大学开放研究数据平台：<br><a href="https://opendata.pku.edu.cn/" target="_blank" rel="noopener">https://opendata.pku.edu.cn/</a><br>2.微软研究院开放数据：<br><a href="https://msropendata.com/" target="_blank" rel="noopener">https://msropendata.com/</a></p>
-</blockquote>
-<h1 id="常用数据集整理"><a href="#常用数据集整理" class="headerlink" title="常用数据集整理"></a>常用数据集整理</h1><!--more-->
-<blockquote>
-<p>1.新浪微博数据集MicroblogPCU：<br><a href="https://archive.ics.uci.edu/ml/machine-learning-databases/00323/" target="_blank" rel="noopener">https://archive.ics.uci.edu/ml/machine-learning-databases/00323/</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>复杂网络</category>
-      </categories>
-      <tags>
-        <tag>数据集</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HTML中form标签下enctype属性的使用</title>
     <url>/2021/04/16/HTML-form-enctype/</url>
     <content><![CDATA[<h1 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h1><p>enctype属性是将指定的数据回发到服务器时，浏览器所使用的编码类型</p>
@@ -81,41 +62,22 @@
       </tags>
   </entry>
   <entry>
-    <title>想法</title>
-    <url>/2020/06/20/idea/</url>
-    <content><![CDATA[<h1 id="记录一些奇奇怪怪的想法"><a href="#记录一些奇奇怪怪的想法" class="headerlink" title="记录一些奇奇怪怪的想法"></a>记录一些奇奇怪怪的想法</h1><p>有些时候经常会有一些比较有趣的想法，但是不久之后可能就会忘记吧,所以记录下来，有时间就来看看。</p>
-<a id="more"></a>
-
-<h1 id="想法：时光邮局"><a href="#想法：时光邮局" class="headerlink" title="想法：时光邮局"></a>想法：时光邮局</h1><p>可以尝试做一个项目，就是当时间到达指定的时间时，能够自动给之前设定好的邮箱发（制定好的）邮件，让自己在未来保持清醒，看看自己是否达到自己当初的期望。</p>
+    <title>数据集</title>
+    <url>/2020/04/12/Dataset/</url>
+    <content><![CDATA[<h1 id="常用数据集查询平台"><a href="#常用数据集查询平台" class="headerlink" title="常用数据集查询平台"></a>常用数据集查询平台</h1><a id="more"></a>
+<blockquote>
+<p>1.北京大学开放研究数据平台：<br><a href="https://opendata.pku.edu.cn/" target="_blank" rel="noopener">https://opendata.pku.edu.cn/</a><br>2.微软研究院开放数据：<br><a href="https://msropendata.com/" target="_blank" rel="noopener">https://msropendata.com/</a></p>
+</blockquote>
+<h1 id="常用数据集整理"><a href="#常用数据集整理" class="headerlink" title="常用数据集整理"></a>常用数据集整理</h1><!--more-->
+<blockquote>
+<p>1.新浪微博数据集MicroblogPCU：<br><a href="https://archive.ics.uci.edu/ml/machine-learning-databases/00323/" target="_blank" rel="noopener">https://archive.ics.uci.edu/ml/machine-learning-databases/00323/</a></p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>idea</category>
+        <category>复杂网络</category>
       </categories>
       <tags>
-        <tag>想法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python-zip函数</title>
-    <url>/2020/05/17/Python-zip%E5%87%BD%E6%95%B0/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在计算杨辉三角时，在别人的思路中发现zip函数，遂记之。</p>
-<a id="more"></a>
-<hr>
-<h1 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h1><h2 id="zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。"><a href="#zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。" class="headerlink" title="zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。"></a>zip函数的目的是将若干<strong>列表</strong>的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。</h2><h1 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt;a &#x3D; [1,2,3]</span><br><span class="line">&gt;&gt;&gt;b &#x3D; [4,5,6]</span><br><span class="line">&gt;&gt;&gt;c &#x3D; [7,8,9]</span><br><span class="line">&gt;&gt;&gt;zip1 &#x3D; zip(a,b,c)</span><br><span class="line">&gt;&gt;&gt;list(zip1)</span><br><span class="line">[(1, 4, 7), (2, 5, 8), (3, 6, 9)]</span><br></pre></td></tr></table></figure>
-<hr>
-<h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><p>1.zip合并时，假设列表的长短不一样，则合并时以最短的列表为主。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; a &#x3D; [1,2,3]</span><br><span class="line">&gt;&gt;&gt; b &#x3D; [4,5,6,7,8,9]</span><br><span class="line">&gt;&gt;&gt; zip1 &#x3D; zip(a,b)</span><br><span class="line">&gt;&gt;&gt; list(zip1)</span><br><span class="line">[(1, 4), (2, 5), (3, 6)]</span><br></pre></td></tr></table></figure>
-<p>2.zip(*)与zip函数相反，该操作将元组对象返回成列表的形式</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; c,d &#x3D; zip(*zip1)</span><br><span class="line">&gt;&gt;&gt; c</span><br><span class="line">(1, 2, 3)</span><br><span class="line">&gt;&gt;&gt; d</span><br><span class="line">(4, 5, 6)</span><br></pre></td></tr></table></figure>
-
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>无</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>leetcode</tag>
+        <tag>数据集</tag>
       </tags>
   </entry>
   <entry>
@@ -146,6 +108,44 @@
       <tags>
         <tag>hexo</tag>
         <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python-zip函数</title>
+    <url>/2020/05/17/Python-zip%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在计算杨辉三角时，在别人的思路中发现zip函数，遂记之。</p>
+<a id="more"></a>
+<hr>
+<h1 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h1><h2 id="zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。"><a href="#zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。" class="headerlink" title="zip函数的目的是将若干列表的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。"></a>zip函数的目的是将若干<strong>列表</strong>的元素一一组合起来，组成的一个个元组，然后返回这些元组的对象。</h2><h1 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt;a &#x3D; [1,2,3]</span><br><span class="line">&gt;&gt;&gt;b &#x3D; [4,5,6]</span><br><span class="line">&gt;&gt;&gt;c &#x3D; [7,8,9]</span><br><span class="line">&gt;&gt;&gt;zip1 &#x3D; zip(a,b,c)</span><br><span class="line">&gt;&gt;&gt;list(zip1)</span><br><span class="line">[(1, 4, 7), (2, 5, 8), (3, 6, 9)]</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><p>1.zip合并时，假设列表的长短不一样，则合并时以最短的列表为主。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; a &#x3D; [1,2,3]</span><br><span class="line">&gt;&gt;&gt; b &#x3D; [4,5,6,7,8,9]</span><br><span class="line">&gt;&gt;&gt; zip1 &#x3D; zip(a,b)</span><br><span class="line">&gt;&gt;&gt; list(zip1)</span><br><span class="line">[(1, 4), (2, 5), (3, 6)]</span><br></pre></td></tr></table></figure>
+<p>2.zip(*)与zip函数相反，该操作将元组对象返回成列表的形式</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; c,d &#x3D; zip(*zip1)</span><br><span class="line">&gt;&gt;&gt; c</span><br><span class="line">(1, 2, 3)</span><br><span class="line">&gt;&gt;&gt; d</span><br><span class="line">(4, 5, 6)</span><br></pre></td></tr></table></figure>
+
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>无</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>想法</title>
+    <url>/2020/06/20/idea/</url>
+    <content><![CDATA[<h1 id="记录一些奇奇怪怪的想法"><a href="#记录一些奇奇怪怪的想法" class="headerlink" title="记录一些奇奇怪怪的想法"></a>记录一些奇奇怪怪的想法</h1><p>有些时候经常会有一些比较有趣的想法，但是不久之后可能就会忘记吧,所以记录下来，有时间就来看看。</p>
+<a id="more"></a>
+
+<h1 id="想法：时光邮局"><a href="#想法：时光邮局" class="headerlink" title="想法：时光邮局"></a>想法：时光邮局</h1><p>可以尝试做一个项目，就是当时间到达指定的时间时，能够自动给之前设定好的邮箱发（制定好的）邮件，让自己在未来保持清醒，看看自己是否达到自己当初的期望。</p>
+]]></content>
+      <categories>
+        <category>idea</category>
+      </categories>
+      <tags>
+        <tag>想法</tag>
       </tags>
   </entry>
   <entry>
@@ -301,6 +301,24 @@
       </tags>
   </entry>
   <entry>
+    <title>函数极限的基本性质</title>
+    <url>/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/</url>
+    <content><![CDATA[<h1 id="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"><a href="#如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？" class="headerlink" title="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"></a>如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？</h1><p>高数第一章函数极限部分的知识。</p>
+<a id="more"></a>
+<h1 id="函数的保号性"><a href="#函数的保号性" class="headerlink" title="函数的保号性"></a>函数的保号性</h1><p>函数的保号性可以理解为函数在局部范围内函数值的符号保持恒正或恒负。</p>
+<h1 id="函数的局部有界性"><a href="#函数的局部有界性" class="headerlink" title="函数的局部有界性"></a>函数的局部有界性</h1><p>函数的局部有界性指的是在x0处函数左右的一定范围内有界，注意不是全部范围</p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意函数的保号性与局部有界性有界性指的是局部范围内。</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>高数</tag>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Github无法访问的解决办法</title>
     <url>/2020/06/07/visit-github/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>记录解决GitHub无法访问的过程，可用。</p>
@@ -330,24 +348,6 @@
       </tags>
   </entry>
   <entry>
-    <title>函数极限的基本性质</title>
-    <url>/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/</url>
-    <content><![CDATA[<h1 id="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"><a href="#如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？" class="headerlink" title="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"></a>如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？</h1><p>高数第一章函数极限部分的知识。</p>
-<a id="more"></a>
-<h1 id="函数的保号性"><a href="#函数的保号性" class="headerlink" title="函数的保号性"></a>函数的保号性</h1><p>函数的保号性可以理解为函数在局部范围内函数值的符号保持恒正或恒负。</p>
-<h1 id="函数的局部有界性"><a href="#函数的局部有界性" class="headerlink" title="函数的局部有界性"></a>函数的局部有界性</h1><p>函数的局部有界性指的是在x0处函数左右的一定范围内有界，注意不是全部范围</p>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意函数的保号性与局部有界性有界性指的是局部范围内。</p>
-]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>高数</tag>
-        <tag>数学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>栅栏密码</title>
     <url>/2020/05/27/%E6%A0%85%E6%A0%8F%E5%AF%86%E7%A0%81/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>栅栏密码是古典密码的一种，本质上是一种置换加密算法，它的特点是保持明文的所有字符不变，只是通过置换将明文中字符的顺序进行改变，从而产生密文。</p>
@@ -369,27 +369,6 @@
       </categories>
       <tags>
         <tag>security</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>考研数学</title>
-    <url>/2020/05/25/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>一战数学一52分，离校线70分差18分，如果有这18分，今年已经研究生上岸了，而且数学刚过B区的国家线，调剂也调剂不成，本校都嫌弃分数低。<br>再来一年吧，在这里记录复习的过程以及采用的指导书。</p>
-<a id="more"></a>
-<h1 id="复习全书"><a href="#复习全书" class="headerlink" title="复习全书"></a>复习全书</h1><p>李正元全书 √</p>
-<h1 id="高等数学"><a href="#高等数学" class="headerlink" title="高等数学"></a>高等数学</h1><p>1.武忠祥高数讲义 √<br>2.张宇闭关修炼</p>
-<h1 id="线性代数"><a href="#线性代数" class="headerlink" title="线性代数"></a>线性代数</h1><p>李永乐线性代数讲义 √</p>
-<h1 id="概率论与数理统计"><a href="#概率论与数理统计" class="headerlink" title="概率论与数理统计"></a>概率论与数理统计</h1><p>1.余炳森概率 √<br>2.方浩概率<br>3.王式安概率 √</p>
-<h1 id="习题集"><a href="#习题集" class="headerlink" title="习题集"></a>习题集</h1><p>1.李永乐王式安基础阶段660(打基础)<br>2.李永乐王式安强化阶段330(练手)<br>3.闭关修炼(重点知识点题集)<br>4.李林880(练手)</p>
-<h1 id="真题"><a href="#真题" class="headerlink" title="真题"></a>真题</h1><p>1.张宇(已有) √<br>2.李林(便宜)<br>3.李永乐王式安</p>
-<h1 id="模拟题"><a href="#模拟题" class="headerlink" title="模拟题"></a>模拟题</h1><p>1.李林8+4<br>2.张宇8+4(买着玩)<br>3.合工大(都有送)</p>
-]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
@@ -420,6 +399,7 @@
     <content><![CDATA[<h1 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h1><h2 id="1-1-本次测试用到的工具："><a href="#1-1-本次测试用到的工具：" class="headerlink" title="1.1 本次测试用到的工具："></a>1.1 本次测试用到的工具：</h2><p>通达OA：<a href="https://www.aliyundrive.com/s/TTnoqvJfs8z" target="_blank" rel="noopener">https://www.aliyundrive.com/s/TTnoqvJfs8z</a></p>
 <p>OA版本：11.3.200106</p>
 <p>cookie注入工具：CookieHacker：<a href="https://github.com/evilcos/cookiehacker" target="_blank" rel="noopener">https://github.com/evilcos/cookiehacker</a></p>
+<p>POC下载：<a href="https://github.com/NS-Sp4ce/TongDaOA-Fake-User" target="_blank" rel="noopener">https://github.com/NS-Sp4ce/TongDaOA-Fake-User</a></p>
 <p>服务器：Windows 7</p>
 <p>攻击机：Windows 10</p>
 <h2 id="1-2-本次测试漏洞影响的范围"><a href="#1-2-本次测试漏洞影响的范围" class="headerlink" title="1.2 本次测试漏洞影响的范围"></a>1.2 本次测试漏洞影响的范围</h2><ul>
@@ -429,12 +409,47 @@
 <a id="more"></a>
 
 <h1 id="2-正文"><a href="#2-正文" class="headerlink" title="2. 正文"></a>2. 正文</h1><p>​    首先将通达V11下载后直接运行EXE文件安装，验证80端口是否占用（可选），然后访问看是否能打开，这里选择在虚拟机安装：<br><img src="/2021/07/21/%E9%80%9A%E8%BE%BEOA%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/1.png" alt="虚拟机打开"></p>
+<p>​    安装完成后在浏览器中打开验证是否可以访问，这里默认账户为admin，密码默认为空。<br><img src="/2021/07/21/%E9%80%9A%E8%BE%BEOA%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/2.png" alt="打开验证安装是否成功"></p>
+<p>​    打开之后可以修改默认密码<br><img src="/2021/07/21/%E9%80%9A%E8%BE%BEOA%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/3.png" alt="添加密码"></p>
+<p>​    使用POC构造cookie：<br><img src="/2021/07/21/%E9%80%9A%E8%BE%BEOA%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/4.png" alt="构造cookie"></p>
+<p>​    使用工具替换cookie:<br><img src="/2021/07/21/%E9%80%9A%E8%BE%BEOA%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/5.png" alt="cookie替换"></p>
+<p>​    替换cookie后访问登陆后的页面，可以直接获取到管理员权限：</p>
+<p><a href="http://10.11.33.252/general/index.php?isIE=0&amp;modify_pwd=0" target="_blank" rel="noopener">http://10.11.33.252/general/index.php?isIE=0&amp;modify_pwd=0</a></p>
+<p><img src="/2021/07/21/%E9%80%9A%E8%BE%BEOA%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/6.png" alt="管理员权限"></p>
+<p>​    未授权登录成功！</p>
+<h1 id="3-官方修复："><a href="#3-官方修复：" class="headerlink" title="3.官方修复："></a>3.官方修复：</h1><p> <a href="https://www.tongda2000.com/download/sp2019.php" target="_blank" rel="noopener">https://www.tongda2000.com/download/sp2019.php</a></p>
+<h1 id="4-参考"><a href="#4-参考" class="headerlink" title="4.参考"></a>4.参考</h1><ol>
+<li><a href="https://mp.weixin.qq.com/s/inYFoy2GDrFTpvl3YozMfA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/inYFoy2GDrFTpvl3YozMfA</a></li>
+<li><a href="https://evilcos.me/?p=366" target="_blank" rel="noopener">https://evilcos.me/?p=366</a></li>
+<li><a href="https://www.cnblogs.com/yuzly/p/13602239.html" target="_blank" rel="noopener">https://www.cnblogs.com/yuzly/p/13602239.html</a></li>
+</ol>
 ]]></content>
       <categories>
         <category>渗透测试</category>
       </categories>
       <tags>
         <tag>security</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>考研数学</title>
+    <url>/2020/05/25/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>一战数学一52分，离校线70分差18分，如果有这18分，今年已经研究生上岸了，而且数学刚过B区的国家线，调剂也调剂不成，本校都嫌弃分数低。<br>再来一年吧，在这里记录复习的过程以及采用的指导书。</p>
+<a id="more"></a>
+<h1 id="复习全书"><a href="#复习全书" class="headerlink" title="复习全书"></a>复习全书</h1><p>李正元全书 √</p>
+<h1 id="高等数学"><a href="#高等数学" class="headerlink" title="高等数学"></a>高等数学</h1><p>1.武忠祥高数讲义 √<br>2.张宇闭关修炼</p>
+<h1 id="线性代数"><a href="#线性代数" class="headerlink" title="线性代数"></a>线性代数</h1><p>李永乐线性代数讲义 √</p>
+<h1 id="概率论与数理统计"><a href="#概率论与数理统计" class="headerlink" title="概率论与数理统计"></a>概率论与数理统计</h1><p>1.余炳森概率 √<br>2.方浩概率<br>3.王式安概率 √</p>
+<h1 id="习题集"><a href="#习题集" class="headerlink" title="习题集"></a>习题集</h1><p>1.李永乐王式安基础阶段660(打基础)<br>2.李永乐王式安强化阶段330(练手)<br>3.闭关修炼(重点知识点题集)<br>4.李林880(练手)</p>
+<h1 id="真题"><a href="#真题" class="headerlink" title="真题"></a>真题</h1><p>1.张宇(已有) √<br>2.李林(便宜)<br>3.李永乐王式安</p>
+<h1 id="模拟题"><a href="#模拟题" class="headerlink" title="模拟题"></a>模拟题</h1><p>1.李林8+4<br>2.张宇8+4(买着玩)<br>3.合工大(都有送)</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
 </search>
