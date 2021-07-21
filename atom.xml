@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhaomengshan.website/"/>
-  <updated>2021-07-21T08:49:13.087Z</updated>
+  <updated>2021-07-21T09:24:07.772Z</updated>
   <id>https://www.zhaomengshan.website/</id>
   
   <author>
@@ -17,25 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>20210721test</title>
-    <link href="https://www.zhaomengshan.website/2021/07/21/20210721test/"/>
-    <id>https://www.zhaomengshan.website/2021/07/21/20210721test/</id>
-    <published>2021-07-21T08:34:06.000Z</published>
-    <updated>2021-07-21T08:49:13.087Z</updated>
+    <title>通达OA任意用户登录</title>
+    <link href="https://www.zhaomengshan.website/2021/07/21/%E9%80%9A%E8%BE%BEOA%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/"/>
+    <id>https://www.zhaomengshan.website/2021/07/21/%E9%80%9A%E8%BE%BEOA%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/</id>
+    <published>2021-07-21T09:09:43.000Z</published>
+    <updated>2021-07-21T09:24:07.772Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/2021/07/21/20210721test/%E5%AD%A4%E8%88%9F%E5%9B%BE%E7%89%87.jpg&quot;
-        
-      
+      &lt;h1 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h1&gt;&lt;h2 id=&quot;1-1-本次测试用到的工具：&quot;&gt;&lt;a href=&quot;#1-1-本次测试用到的工具：&quot; class=&quot;headerlink&quot; title=&quot;1.1 本次测试用到的工具：&quot;&gt;&lt;/a&gt;1.1 本次测试用到的工具：&lt;/h2&gt;&lt;p&gt;通达OA：&lt;a href=&quot;https://www.aliyundrive.com/s/TTnoqvJfs8z&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.aliyundrive.com/s/TTnoqvJfs8z&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;OA版本：11.3.200106&lt;/p&gt;
+&lt;p&gt;cookie注入工具：CookieHacker：&lt;a href=&quot;https://github.com/evilcos/cookiehacker&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/evilcos/cookiehacker&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;服务器：Windows 7&lt;/p&gt;
+&lt;p&gt;攻击机：Windows 10&lt;/p&gt;
+&lt;h2 id=&quot;1-2-本次测试漏洞影响的范围&quot;&gt;&lt;a href=&quot;#1-2-本次测试漏洞影响的范围&quot; class=&quot;headerlink&quot; title=&quot;1.2 本次测试漏洞影响的范围&quot;&gt;&lt;/a&gt;1.2 本次测试漏洞影响的范围&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;通达OA &amp;lt; 11.5.200417 版本&lt;/li&gt;
+&lt;li&gt;通达OA 2017&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
     
+      <category term="渗透测试" scheme="https://www.zhaomengshan.website/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="security" scheme="https://www.zhaomengshan.website/tags/security/"/>
     
   </entry>
   
