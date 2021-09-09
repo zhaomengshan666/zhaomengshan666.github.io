@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2020年12月10日 雾</title>
-    <url>/2020/12/10/201210/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&#8195;&#8195;很长时间没有写过东西了，在家里的这段时间有些许进步，但是更多的时间还是焦虑。<a id="more"></a></p>
-<hr>
-<h1 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h1><p>&#8195;&#8195;今天凌晨研招网开放研究生准考证的查询，然后本来很困嘛，就一直等等等，结果一直等到一点多才查到自己的准考证，心里想这次肯定完了订不到房间，结果查到后发现很狗血的事情是，准考证上面没有写考场在哪里，还要等到12月21号才能查询，然后就睡得很晚，早上也没起来。</p>
-<p>&#8195;&#8195;下午干了肖八的第七套，选择题考了34分，还可以，但是单选题错了六个，属实不太行。</p>
-<p>&#8195;&#8195;专业课数据结构的第五章看完了，那个AOE网确实有点搞心态，考试的时候真出了我觉得还是要花点时间去算一算的。</p>
-<p>&#8195;&#8195;数学今天还没有开始学习，我感觉有点迷茫了，不知道数学现在应该干点什么，或许我应该再把辅导书上面的课后习题认真的做一做，我觉得很多题目其实我都会，不会的东西我也知道我不会，但是不知道在哪儿学习这个专题，比如极坐标函数？很迷惑。</p>
-<p>&#8195;&#8195;对了，下午我还看了接近两个小时的招聘网站，感觉还可以吧，到时候真的考不上了，还可以去找一个能温饱的实习？ 希望人生能简单一点吧。</p>
-<hr>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>&#8195;&#8195;总之呢，现在已经10号了，不算25号的话，离考研开始还有14天，整整两个星期，加油熬过去吧。</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-  </entry>
-  <entry>
     <title>数据集</title>
     <url>/2020/04/12/Dataset/</url>
     <content><![CDATA[<h1 id="常用数据集查询平台"><a href="#常用数据集查询平台" class="headerlink" title="常用数据集查询平台"></a>常用数据集查询平台</h1><a id="more"></a>
@@ -37,48 +20,21 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo Next主题背景设置</title>
-    <url>/2020/05/16/BackGround/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Next主题背景图设置，成功于2020年5月16日。</p>
-<a id="more"></a>
-
-<h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><ul>
-<li>首先在Hexo根目录下的source文件下新建文件夹（与 _posts文件夹平级）创建文件夹 <strong>_data</strong>。</li>
-<li>然后在文件夹下创建名为<strong>styles.styl</strong>的文件，文件内部填充如下：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">    background:url(https:&#x2F;&#x2F;timgsa.baidu.com&#x2F;timg?image&amp;quality&#x3D;80&amp;size&#x3D;b9999_10000&amp;sec&#x3D;1589645962122&amp;di&#x3D;bcf815bc605f1abb670744c81f26fd0c&amp;imgtype&#x3D;0&amp;src&#x3D;http%3A%2F%2Fwww.51pptmoban.com%2Fd%2Ffile%2F2012%2F08%2F21%2F4299a7be487f9611e60ee34f86a06f7f.jpg);&#x2F;&#x2F;背景图片地址</span><br><span class="line">    background-repeat: no-repeat;</span><br><span class="line">    background-attachment:fixed; &#x2F;&#x2F;不重复</span><br><span class="line">    background-size: cover;      &#x2F;&#x2F;填充</span><br><span class="line">    background-position:50% 50%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 页面头样式属性</span><br><span class="line">.header-inner &#123;</span><br><span class="line">  &#x2F;&#x2F; 也可以同时定义背景色</span><br><span class="line">  &#x2F;&#x2F; background: #ddd </span><br><span class="line">  &#x2F;&#x2F; 透明度</span><br><span class="line">  opacity: 0.8;</span><br><span class="line">  z-index: 10;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; sidebar侧边工具栏样式属性</span><br><span class="line">.sidebar&#123;</span><br><span class="line">    &#x2F;&#x2F; 动画过渡时间</span><br><span class="line">	transition-duration: 0.4s;</span><br><span class="line">    &#x2F;&#x2F; 透明度</span><br><span class="line">	opacity: 0.8;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 标题样式</span><br><span class="line">.posts-expand .post-title-link &#123;</span><br><span class="line">	&#x2F;&#x2F; 设置字体颜色</span><br><span class="line">	color: #222;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;文章主题透明度</span><br><span class="line">.main-inner &#123; </span><br><span class="line">   &#x2F;&#x2F; margin-top: 60px;</span><br><span class="line">   &#x2F;&#x2F; padding: 60px 60px 60px 60px;</span><br><span class="line">    opacity: 0.8;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
+    <title>2020年12月10日 雾</title>
+    <url>/2020/12/10/201210/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&#8195;&#8195;很长时间没有写过东西了，在家里的这段时间有些许进步，但是更多的时间还是焦虑。<a id="more"></a></p>
 <hr>
-<h1 id="启用"><a href="#启用" class="headerlink" title="启用"></a>启用</h1><p>在<strong>Next主题</strong>文件下的 _config.yml文件中搜索 “custom_file_path:”，将style前的 # 删除。</p>
-<h1 id="尾记"><a href="#尾记" class="headerlink" title="尾记"></a>尾记</h1><p>原理不明，参考而得</p>
+<h1 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h1><p>&#8195;&#8195;今天凌晨研招网开放研究生准考证的查询，然后本来很困嘛，就一直等等等，结果一直等到一点多才查到自己的准考证，心里想这次肯定完了订不到房间，结果查到后发现很狗血的事情是，准考证上面没有写考场在哪里，还要等到12月21号才能查询，然后就睡得很晚，早上也没起来。</p>
+<p>&#8195;&#8195;下午干了肖八的第七套，选择题考了34分，还可以，但是单选题错了六个，属实不太行。</p>
+<p>&#8195;&#8195;专业课数据结构的第五章看完了，那个AOE网确实有点搞心态，考试的时候真出了我觉得还是要花点时间去算一算的。</p>
+<p>&#8195;&#8195;数学今天还没有开始学习，我感觉有点迷茫了，不知道数学现在应该干点什么，或许我应该再把辅导书上面的课后习题认真的做一做，我觉得很多题目其实我都会，不会的东西我也知道我不会，但是不知道在哪儿学习这个专题，比如极坐标函数？很迷惑。</p>
+<p>&#8195;&#8195;对了，下午我还看了接近两个小时的招聘网站，感觉还可以吧，到时候真的考不上了，还可以去找一个能温饱的实习？ 希望人生能简单一点吧。</p>
+<hr>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>&#8195;&#8195;总之呢，现在已经10号了，不算25号的话，离考研开始还有14天，整整两个星期，加油熬过去吧。</p>
 ]]></content>
       <categories>
-        <category>博客</category>
+        <category>日记</category>
       </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HTML中form标签下enctype属性的使用</title>
-    <url>/2021/04/16/HTML-form-enctype/</url>
-    <content><![CDATA[<h1 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h1><p>enctype属性是将指定的数据回发到服务器时，浏览器所使用的编码类型</p>
-<a id="more"></a>
-<hr>
-<h1 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h1><hr>
-<p>enctype的编码类型有三种：</p>
-<h2 id="application-x-www-form-urlencoded"><a href="#application-x-www-form-urlencoded" class="headerlink" title="application/x-www-form-urlencoded"></a>application/x-www-form-urlencoded</h2><p>&ensp;这个类型是发送数据时默认的编码类型，当没有在form标签中设置enctype属性是就默认为application/x-www-form-urlencoded类型。 数据发送到服务器之前，所有字符都会进行编码（空格转换为 “+” 加号，特殊符号转换为 ASCII HEX 值）。</p>
-<hr>
-<h2 id="multipart-form-data"><a href="#multipart-form-data" class="headerlink" title="multipart/form-data"></a>multipart/form-data</h2><p>&ensp; 这个是专门用来传输特殊类型数据的，如我们上传的非文本的内容，比如图片或者MP3等。这种编码类型不对字符编码，数据通过二进制的形式传送到服务器端，这时如果用request是无法直接获取到相应表单的值的，而应该通过stream流对象，将传到服务器端的二进制数据解码，从而读取数据。</p>
-<hr>
-<h2 id="text-plain"><a href="#text-plain" class="headerlink" title="text/plain"></a>text/plain</h2><p>&ensp;数据以纯文本形式进行编码，空格转换为 “+” 加号，但不对特殊字符编码。</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>HTML</tag>
-      </tags>
   </entry>
   <entry>
     <title>图片插入说明</title>
@@ -186,59 +142,6 @@
       <tags>
         <tag>python</tag>
         <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github无法访问的解决办法</title>
-    <url>/2020/06/07/visit-github/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>记录解决GitHub无法访问的过程，可用。</p>
-<a id="more"></a>
-<p>操作系统：Windows10</p>
-<hr>
-<h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h1><p>打开hosts目录：C:\Windows\System32\drivers\etc</p>
-<hr>
-<h1 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h1><p>复制hosts文件到桌面，添加下列信息：</p>
-<blockquote>
-<p>#github<br>192.30.253.113    github.com<br>151.101.185.194     github.global.ssl.fastly.net</p>
-</blockquote>
-<hr>
-<h1 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h1><p>使用修改后的hosts文件覆盖原文件。</p>
-<hr>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意：github.com和github.global.ssl.fastly.net对应ip可能因机器不同而不相同，可以使用该站点查询对应域名的ip<br><a href="https://www.ipaddress.com/ip-lookup" target="_blank" rel="noopener">网站链接</a></p>
-<blockquote>
-<p>参考链接：<a href="https://www.jianshu.com/p/1c0a3321cf7f" target="_blank" rel="noopener">https://www.jianshu.com/p/1c0a3321cf7f</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>github</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
-        <tag>solution</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>栅栏密码</title>
-    <url>/2020/05/27/%E6%A0%85%E6%A0%8F%E5%AF%86%E7%A0%81/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>栅栏密码是古典密码的一种，本质上是一种置换加密算法，它的特点是保持明文的所有字符不变，只是通过置换将明文中字符的顺序进行改变，从而产生密文。</p>
-<a id="more"></a>
-<hr>
-<h1 id="详解"><a href="#详解" class="headerlink" title="详解"></a>详解</h1><p>栅栏密码就是将要加密的字符（明文）分成N个一组，从而组成一个矩阵，再将矩阵按行读取可得最终的密文，举例如下：</p>
-<blockquote>
-<p>将明文：he is a handsome boy 分成四栏加密<br>加密过程：hade<br>        ehsb<br>        iaoo<br>        snmy<br>加密结果：hadeehsbiaoosnmy</p>
-</blockquote>
-<hr>
-<h1 id="变种WWW型栅栏密码"><a href="#变种WWW型栅栏密码" class="headerlink" title="变种WWW型栅栏密码"></a>变种WWW型栅栏密码</h1><p>下面是一个五栏的变种WWW型栅栏密码的加密示例：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">明文：helloworldgoodmorningxxxx</span><br><span class="line">加密过程：</span><br><span class="line">h       l       r       x</span><br><span class="line"> e     r d     o n     x</span><br><span class="line">  l   o   g   m   i   x</span><br><span class="line">   l w     o d     n x</span><br><span class="line">    o       o       g</span><br><span class="line">密文：hlrnerdonilogmiqlwodnxoog</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>栅栏密码似乎有两种不同的类型，在资料收集过程中首先遇到的是第一种栅栏密码的计算方法，但是我实际遇到的问题并不能用第一种来解释，后来翻去外网，看到外网的栅栏密码（篱笆密码）是WWW型的，而我的问题刚好符合。不确定两种方法哪一个更对，但是看起来好像第二种更复杂一些。</p>
-]]></content>
-      <categories>
-        <category>CTF</category>
-      </categories>
-      <tags>
-        <tag>security</tag>
       </tags>
   </entry>
   <entry>
@@ -354,6 +257,97 @@
       </tags>
   </entry>
   <entry>
+    <title>Github无法访问的解决办法</title>
+    <url>/2020/06/07/visit-github/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>记录解决GitHub无法访问的过程，可用。</p>
+<a id="more"></a>
+<p>操作系统：Windows10</p>
+<hr>
+<h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h1><p>打开hosts目录：C:\Windows\System32\drivers\etc</p>
+<hr>
+<h1 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h1><p>复制hosts文件到桌面，添加下列信息：</p>
+<blockquote>
+<p>#github<br>192.30.253.113    github.com<br>151.101.185.194     github.global.ssl.fastly.net</p>
+</blockquote>
+<hr>
+<h1 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h1><p>使用修改后的hosts文件覆盖原文件。</p>
+<hr>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意：github.com和github.global.ssl.fastly.net对应ip可能因机器不同而不相同，可以使用该站点查询对应域名的ip<br><a href="https://www.ipaddress.com/ip-lookup" target="_blank" rel="noopener">网站链接</a></p>
+<blockquote>
+<p>参考链接：<a href="https://www.jianshu.com/p/1c0a3321cf7f" target="_blank" rel="noopener">https://www.jianshu.com/p/1c0a3321cf7f</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>github</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+        <tag>solution</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>函数极限的基本性质</title>
+    <url>/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/</url>
+    <content><![CDATA[<h1 id="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"><a href="#如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？" class="headerlink" title="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"></a>如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？</h1><p>高数第一章函数极限部分的知识。</p>
+<a id="more"></a>
+<h1 id="函数的保号性"><a href="#函数的保号性" class="headerlink" title="函数的保号性"></a>函数的保号性</h1><p>函数的保号性可以理解为函数在局部范围内函数值的符号保持恒正或恒负。</p>
+<h1 id="函数的局部有界性"><a href="#函数的局部有界性" class="headerlink" title="函数的局部有界性"></a>函数的局部有界性</h1><p>函数的局部有界性指的是在x0处函数左右的一定范围内有界，注意不是全部范围</p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意函数的保号性与局部有界性有界性指的是局部范围内。</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>高数</tag>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HTML中form标签下enctype属性的使用</title>
+    <url>/2021/04/16/HTML-form-enctype/</url>
+    <content><![CDATA[<h1 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h1><p>enctype属性是将指定的数据回发到服务器时，浏览器所使用的编码类型</p>
+<a id="more"></a>
+<hr>
+<h1 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h1><hr>
+<p>enctype的编码类型有三种：</p>
+<h2 id="application-x-www-form-urlencoded"><a href="#application-x-www-form-urlencoded" class="headerlink" title="application/x-www-form-urlencoded"></a>application/x-www-form-urlencoded</h2><p>&ensp;这个类型是发送数据时默认的编码类型，当没有在form标签中设置enctype属性是就默认为application/x-www-form-urlencoded类型。 数据发送到服务器之前，所有字符都会进行编码（空格转换为 “+” 加号，特殊符号转换为 ASCII HEX 值）。</p>
+<hr>
+<h2 id="multipart-form-data"><a href="#multipart-form-data" class="headerlink" title="multipart/form-data"></a>multipart/form-data</h2><p>&ensp; 这个是专门用来传输特殊类型数据的，如我们上传的非文本的内容，比如图片或者MP3等。这种编码类型不对字符编码，数据通过二进制的形式传送到服务器端，这时如果用request是无法直接获取到相应表单的值的，而应该通过stream流对象，将传到服务器端的二进制数据解码，从而读取数据。</p>
+<hr>
+<h2 id="text-plain"><a href="#text-plain" class="headerlink" title="text/plain"></a>text/plain</h2><p>&ensp;数据以纯文本形式进行编码，空格转换为 “+” 加号，但不对特殊字符编码。</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo Next主题背景设置</title>
+    <url>/2020/05/16/BackGround/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Next主题背景图设置，成功于2020年5月16日。</p>
+<a id="more"></a>
+
+<h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><ul>
+<li>首先在Hexo根目录下的source文件下新建文件夹（与 _posts文件夹平级）创建文件夹 <strong>_data</strong>。</li>
+<li>然后在文件夹下创建名为<strong>styles.styl</strong>的文件，文件内部填充如下：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">    background:url(https:&#x2F;&#x2F;timgsa.baidu.com&#x2F;timg?image&amp;quality&#x3D;80&amp;size&#x3D;b9999_10000&amp;sec&#x3D;1589645962122&amp;di&#x3D;bcf815bc605f1abb670744c81f26fd0c&amp;imgtype&#x3D;0&amp;src&#x3D;http%3A%2F%2Fwww.51pptmoban.com%2Fd%2Ffile%2F2012%2F08%2F21%2F4299a7be487f9611e60ee34f86a06f7f.jpg);&#x2F;&#x2F;背景图片地址</span><br><span class="line">    background-repeat: no-repeat;</span><br><span class="line">    background-attachment:fixed; &#x2F;&#x2F;不重复</span><br><span class="line">    background-size: cover;      &#x2F;&#x2F;填充</span><br><span class="line">    background-position:50% 50%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 页面头样式属性</span><br><span class="line">.header-inner &#123;</span><br><span class="line">  &#x2F;&#x2F; 也可以同时定义背景色</span><br><span class="line">  &#x2F;&#x2F; background: #ddd </span><br><span class="line">  &#x2F;&#x2F; 透明度</span><br><span class="line">  opacity: 0.8;</span><br><span class="line">  z-index: 10;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; sidebar侧边工具栏样式属性</span><br><span class="line">.sidebar&#123;</span><br><span class="line">    &#x2F;&#x2F; 动画过渡时间</span><br><span class="line">	transition-duration: 0.4s;</span><br><span class="line">    &#x2F;&#x2F; 透明度</span><br><span class="line">	opacity: 0.8;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 标题样式</span><br><span class="line">.posts-expand .post-title-link &#123;</span><br><span class="line">	&#x2F;&#x2F; 设置字体颜色</span><br><span class="line">	color: #222;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;文章主题透明度</span><br><span class="line">.main-inner &#123; </span><br><span class="line">   &#x2F;&#x2F; margin-top: 60px;</span><br><span class="line">   &#x2F;&#x2F; padding: 60px 60px 60px 60px;</span><br><span class="line">    opacity: 0.8;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<hr>
+<h1 id="启用"><a href="#启用" class="headerlink" title="启用"></a>启用</h1><p>在<strong>Next主题</strong>文件下的 _config.yml文件中搜索 “custom_file_path:”，将style前的 # 删除。</p>
+<h1 id="尾记"><a href="#尾记" class="headerlink" title="尾记"></a>尾记</h1><p>原理不明，参考而得</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>考研数学</title>
     <url>/2020/05/25/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>一战数学一52分，离校线70分差18分，如果有这18分，今年已经研究生上岸了，而且数学刚过B区的国家线，调剂也调剂不成，本校都嫌弃分数低。<br>再来一年吧，在这里记录复习的过程以及采用的指导书。</p>
@@ -394,24 +388,6 @@
       </categories>
       <tags>
         <tag>总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>函数极限的基本性质</title>
-    <url>/2020/05/29/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8/</url>
-    <content><![CDATA[<h1 id="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"><a href="#如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？" class="headerlink" title="如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？"></a>如何理解函数极限的保号性？如何理解存在极限的函数局部有界性？</h1><p>高数第一章函数极限部分的知识。</p>
-<a id="more"></a>
-<h1 id="函数的保号性"><a href="#函数的保号性" class="headerlink" title="函数的保号性"></a>函数的保号性</h1><p>函数的保号性可以理解为函数在局部范围内函数值的符号保持恒正或恒负。</p>
-<h1 id="函数的局部有界性"><a href="#函数的局部有界性" class="headerlink" title="函数的局部有界性"></a>函数的局部有界性</h1><p>函数的局部有界性指的是在x0处函数左右的一定范围内有界，注意不是全部范围</p>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>注意函数的保号性与局部有界性有界性指的是局部范围内。</p>
-]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>数学</tag>
-        <tag>高数</tag>
       </tags>
   </entry>
   <entry>
@@ -476,6 +452,30 @@
 ]]></content>
       <categories>
         <category>渗透测试</category>
+      </categories>
+      <tags>
+        <tag>security</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>栅栏密码</title>
+    <url>/2020/05/27/%E6%A0%85%E6%A0%8F%E5%AF%86%E7%A0%81/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>栅栏密码是古典密码的一种，本质上是一种置换加密算法，它的特点是保持明文的所有字符不变，只是通过置换将明文中字符的顺序进行改变，从而产生密文。</p>
+<a id="more"></a>
+<hr>
+<h1 id="详解"><a href="#详解" class="headerlink" title="详解"></a>详解</h1><p>栅栏密码就是将要加密的字符（明文）分成N个一组，从而组成一个矩阵，再将矩阵按行读取可得最终的密文，举例如下：</p>
+<blockquote>
+<p>将明文：he is a handsome boy 分成四栏加密<br>加密过程：hade<br>        ehsb<br>        iaoo<br>        snmy<br>加密结果：hadeehsbiaoosnmy</p>
+</blockquote>
+<hr>
+<h1 id="变种WWW型栅栏密码"><a href="#变种WWW型栅栏密码" class="headerlink" title="变种WWW型栅栏密码"></a>变种WWW型栅栏密码</h1><p>下面是一个五栏的变种WWW型栅栏密码的加密示例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">明文：helloworldgoodmorningxxxx</span><br><span class="line">加密过程：</span><br><span class="line">h       l       r       x</span><br><span class="line"> e     r d     o n     x</span><br><span class="line">  l   o   g   m   i   x</span><br><span class="line">   l w     o d     n x</span><br><span class="line">    o       o       g</span><br><span class="line">密文：hlrnerdonilogmiqlwodnxoog</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>栅栏密码似乎有两种不同的类型，在资料收集过程中首先遇到的是第一种栅栏密码的计算方法，但是我实际遇到的问题并不能用第一种来解释，后来翻去外网，看到外网的栅栏密码（篱笆密码）是WWW型的，而我的问题刚好符合。不确定两种方法哪一个更对，但是看起来好像第二种更复杂一些。</p>
+]]></content>
+      <categories>
+        <category>CTF</category>
       </categories>
       <tags>
         <tag>security</tag>
