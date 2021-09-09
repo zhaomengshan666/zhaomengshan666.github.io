@@ -18,6 +18,25 @@
       </categories>
   </entry>
   <entry>
+    <title>数据集</title>
+    <url>/2020/04/12/Dataset/</url>
+    <content><![CDATA[<h1 id="常用数据集查询平台"><a href="#常用数据集查询平台" class="headerlink" title="常用数据集查询平台"></a>常用数据集查询平台</h1><a id="more"></a>
+<blockquote>
+<p>1.北京大学开放研究数据平台：<br><a href="https://opendata.pku.edu.cn/" target="_blank" rel="noopener">https://opendata.pku.edu.cn/</a><br>2.微软研究院开放数据：<br><a href="https://msropendata.com/" target="_blank" rel="noopener">https://msropendata.com/</a></p>
+</blockquote>
+<h1 id="常用数据集整理"><a href="#常用数据集整理" class="headerlink" title="常用数据集整理"></a>常用数据集整理</h1><!--more-->
+<blockquote>
+<p>1.新浪微博数据集MicroblogPCU：<br><a href="https://archive.ics.uci.edu/ml/machine-learning-databases/00323/" target="_blank" rel="noopener">https://archive.ics.uci.edu/ml/machine-learning-databases/00323/</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>复杂网络</category>
+      </categories>
+      <tags>
+        <tag>数据集</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo Next主题背景设置</title>
     <url>/2020/05/16/BackGround/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Next主题背景图设置，成功于2020年5月16日。</p>
@@ -38,25 +57,6 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据集</title>
-    <url>/2020/04/12/Dataset/</url>
-    <content><![CDATA[<h1 id="常用数据集查询平台"><a href="#常用数据集查询平台" class="headerlink" title="常用数据集查询平台"></a>常用数据集查询平台</h1><a id="more"></a>
-<blockquote>
-<p>1.北京大学开放研究数据平台：<br><a href="https://opendata.pku.edu.cn/" target="_blank" rel="noopener">https://opendata.pku.edu.cn/</a><br>2.微软研究院开放数据：<br><a href="https://msropendata.com/" target="_blank" rel="noopener">https://msropendata.com/</a></p>
-</blockquote>
-<h1 id="常用数据集整理"><a href="#常用数据集整理" class="headerlink" title="常用数据集整理"></a>常用数据集整理</h1><!--more-->
-<blockquote>
-<p>1.新浪微博数据集MicroblogPCU：<br><a href="https://archive.ics.uci.edu/ml/machine-learning-databases/00323/" target="_blank" rel="noopener">https://archive.ics.uci.edu/ml/machine-learning-databases/00323/</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>复杂网络</category>
-      </categories>
-      <tags>
-        <tag>数据集</tag>
       </tags>
   </entry>
   <entry>
@@ -134,6 +134,21 @@
       </tags>
   </entry>
   <entry>
+    <title>想法</title>
+    <url>/2020/06/20/idea/</url>
+    <content><![CDATA[<h1 id="记录一些奇奇怪怪的想法"><a href="#记录一些奇奇怪怪的想法" class="headerlink" title="记录一些奇奇怪怪的想法"></a>记录一些奇奇怪怪的想法</h1><p>有些时候经常会有一些比较有趣的想法，但是不久之后可能就会忘记吧,所以记录下来，有时间就来看看。</p>
+<a id="more"></a>
+
+<h1 id="想法：时光邮局"><a href="#想法：时光邮局" class="headerlink" title="想法：时光邮局"></a>想法：时光邮局</h1><p>可以尝试做一个项目，就是当时间到达指定的时间时，能够自动给之前设定好的邮箱发（制定好的）邮件，让自己在未来保持清醒，看看自己是否达到自己当初的期望。</p>
+]]></content>
+      <categories>
+        <category>idea</category>
+      </categories>
+      <tags>
+        <tag>想法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>摩斯密码</title>
     <url>/2020/05/26/morse/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>刷CTF题的时候碰到了摩斯密码，由于本科课程中有密码学而且上课也好好听了，但是实在是没有摩斯密码的印象，因此查阅资料后记录下来。</p>
@@ -171,21 +186,6 @@
       </categories>
       <tags>
         <tag>security</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>想法</title>
-    <url>/2020/06/20/idea/</url>
-    <content><![CDATA[<h1 id="记录一些奇奇怪怪的想法"><a href="#记录一些奇奇怪怪的想法" class="headerlink" title="记录一些奇奇怪怪的想法"></a>记录一些奇奇怪怪的想法</h1><p>有些时候经常会有一些比较有趣的想法，但是不久之后可能就会忘记吧,所以记录下来，有时间就来看看。</p>
-<a id="more"></a>
-
-<h1 id="想法：时光邮局"><a href="#想法：时光邮局" class="headerlink" title="想法：时光邮局"></a>想法：时光邮局</h1><p>可以尝试做一个项目，就是当时间到达指定的时间时，能够自动给之前设定好的邮箱发（制定好的）邮件，让自己在未来保持清醒，看看自己是否达到自己当初的期望。</p>
-]]></content>
-      <categories>
-        <category>idea</category>
-      </categories>
-      <tags>
-        <tag>想法</tag>
       </tags>
   </entry>
   <entry>
@@ -393,6 +393,28 @@
       </tags>
   </entry>
   <entry>
+    <title>辛丑年午月</title>
+    <url>/2021/06/02/%E8%BE%9B%E4%B8%91%E5%B9%B4%E5%8D%88%E6%9C%88/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>离上次记录大概过去半年整了，有一说一，这半年的生活其实挺丰富多彩的。<a id="more"></a>元旦过后是我刚考完研的那几天，考完之后去青岛转了一圈，老实说没啥好玩的，可能我去的时候正是冰天雪地的时候，总体体验感为中等；春节期间跟家人一起去了四川外婆家，待了大概有十来天，顿顿吃肉属实顶不住，体验感为上，跟上次来的感受差了很多，锅盔凉粉真的好吃，不枉我惦记了十来年了，蚕蛹也好吃；回家之后的一两个月里准备了考研复试，靠着<del>努力</del>运气过了复试，所以现在也是准研究生了；之后托人找关系进了安恒来实习，有一说一，自学跟有人push的感受还是差别很大的，虽然大多数的时候都是在整理无意义（不是）的报告，留给自己学习的时间很少，但是比起自学的磨磨蹭蹭，感觉还是学到了一些东西，毕竟平台摆在这里，这一个月总的来说好坏参半，体验感中等偏下。</p>
+<h1 id="考研"><a href="#考研" class="headerlink" title="考研"></a>考研</h1><p>先说说考研这件事吧，今年是二战考研的，2020年的数学一太难顶了，刚过B区的国家线，虽然学校的校线也不高，但是自己属实拉跨，然后因为差的分数不多，所以才有二战的想法。</p>
+<p>2021年的考研数学确实不难，但是英语还是有点难度的，去年英语一考了68分，今年英语二考试的时候脑瓜子嗡嗡的，第二篇阅读最后我涂了五个D选项上去（最后对了三个）最终英语二只有62分，还不如去年裸考（不是），虽然数学依旧拉跨，但是终于是过了校线了（运气选手），感谢我家祖宗保佑，说实话考研那大半年我在家里坐着都能感受到自己的运气UP UP，但是考完研之后就消散无了。</p>
+<p>没去选导师，复试的时候老师让我这边问问题，我就问老师对工业界和学术界（网安）的看法，老师说这事儿以后再说。为了寻找答案，我就自己出来先体验体验工业界的情况，不然我觉得研究生三年我会瞎忙，目前的感受是，实习很值得，至少工业界不是很符合我对安全行业的想法，当然如果有机会加入大厂的实验室就另说了（奢望），不会放弃搞安全的，守护做人的法则，守护网络的法则，加油。</p>
+<h1 id="实习"><a href="#实习" class="headerlink" title="实习"></a>实习</h1><p>老实说，让我一个实习生干这些事你们是不是也太大胆了啊喂。</p>
+<p>来这边一个月的时间里，刚开始的三天让我对一个站点进行渗透测试(不是，我要是会了我还来实习干嘛啊)，拿AWVS扫一扫验证了一下，截个图把报告交上去了（=.=！）。</p>
+<p>第二周和另一个实习生去参加HVV（不是，为什么人家绿盟的是老带新，奇安信的是两个老人，我们这边是两个实习生，我都惊了），后来想一想，看监控这种事情让我来不是大材小用么（不是）。</p>
+<p>第三周前两天去给别人做安全检查，被客户嘲笑了（&gt;.&lt;）,后面三天给客户做扫描，这个时候我的Nessus还没安装好，只能紧急求助大佬们了。</p>
+<p>第四周又是HVV，这次我就一个人了，其它厂商的也没有，这次学会自己看点东西了，看看攻击的IP是哪里发出来了，大佬们有没有给IP做过标记，还是挺有意思的（甲方的饭也很香），最终拿了个基础分，周末突然来个群侧任务，就找了个任意密码重置的漏洞（菜）。</p>
+<p>这周是第五周了，跟着大佬去甲方做渗透测试（水都没有，甲方跟甲方的差距比人跟狗都大），大佬在旁边做，我不时地提出自己的见解（应该不是捣乱），感觉学到了很多 ，又仿佛什么都没学到，还是需要经验的，另外有机会我一定回去好好刷OWASP TOP 10（周五还有一个复测任务，应该好做一点吧？），下周要去温州出差，我以为我一个实习生不用出远门的。（呜呜呜）</p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>就写到这里吧。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>通达OA任意用户登录</title>
     <url>/2021/07/21/%E9%80%9A%E8%BE%BEOA%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/</url>
     <content><![CDATA[<h1 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h1><h2 id="1-1-本次测试用到的工具："><a href="#1-1-本次测试用到的工具：" class="headerlink" title="1.1 本次测试用到的工具："></a>1.1 本次测试用到的工具：</h2><p>通达OA：<a href="https://www.aliyundrive.com/s/TTnoqvJfs8z" target="_blank" rel="noopener">https://www.aliyundrive.com/s/TTnoqvJfs8z</a></p>
@@ -457,28 +479,6 @@
       </categories>
       <tags>
         <tag>security</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>辛丑年午月</title>
-    <url>/2021/06/02/%E8%BE%9B%E4%B8%91%E5%B9%B4%E5%8D%88%E6%9C%88/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>离上次记录大概过去半年整了，有一说一，这半年的生活其实挺丰富多彩的。<a id="more"></a>元旦过后是我刚考完研的那几天，考完之后去青岛转了一圈，老实说没啥好玩的，可能我去的时候正是冰天雪地的时候，总体体验感为中等；春节期间跟家人一起去了四川外婆家，待了大概有十来天，顿顿吃肉属实顶不住，体验感为上，跟上次来的感受差了很多，锅盔凉粉真的好吃，不枉我惦记了十来年了，蚕蛹也好吃；回家之后的一两个月里准备了考研复试，靠着<del>努力</del>运气过了复试，所以现在也是准研究生了；之后托人找关系进了安恒来实习，有一说一，自学跟有人push的感受还是差别很大的，虽然大多数的时候都是在整理无意义（不是）的报告，留给自己学习的时间很少，但是比起自学的磨磨蹭蹭，感觉还是学到了一些东西，毕竟平台摆在这里，这一个月总的来说好坏参半，体验感中等偏下。</p>
-<h1 id="考研"><a href="#考研" class="headerlink" title="考研"></a>考研</h1><p>先说说考研这件事吧，今年是二战考研的，2020年的数学一太难顶了，刚过B区的国家线，虽然学校的校线也不高，但是自己属实拉跨，然后因为差的分数不多，所以才有二战的想法。</p>
-<p>2021年的考研数学确实不难，但是英语还是有点难度的，去年英语一考了68分，今年英语二考试的时候脑瓜子嗡嗡的，第二篇阅读最后我涂了五个D选项上去（最后对了三个）最终英语二只有62分，还不如去年裸考（不是），虽然数学依旧拉跨，但是终于是过了校线了（运气选手），感谢我家祖宗保佑，说实话考研那大半年我在家里坐着都能感受到自己的运气UP UP，但是考完研之后就消散无了。</p>
-<p>没去选导师，复试的时候老师让我这边问问题，我就问老师对工业界和学术界（网安）的看法，老师说这事儿以后再说。为了寻找答案，我就自己出来先体验体验工业界的情况，不然我觉得研究生三年我会瞎忙，目前的感受是，实习很值得，至少工业界不是很符合我对安全行业的想法，当然如果有机会加入大厂的实验室就另说了（奢望），不会放弃搞安全的，守护做人的法则，守护网络的法则，加油。</p>
-<h1 id="实习"><a href="#实习" class="headerlink" title="实习"></a>实习</h1><p>老实说，让我一个实习生干这些事你们是不是也太大胆了啊喂。</p>
-<p>来这边一个月的时间里，刚开始的三天让我对一个站点进行渗透测试(不是，我要是会了我还来实习干嘛啊)，拿AWVS扫一扫验证了一下，截个图把报告交上去了（=.=！）。</p>
-<p>第二周和另一个实习生去参加HVV（不是，为什么人家绿盟的是老带新，奇安信的是两个老人，我们这边是两个实习生，我都惊了），后来想一想，看监控这种事情让我来不是大材小用么（不是）。</p>
-<p>第三周前两天去给别人做安全检查，被客户嘲笑了（&gt;.&lt;）,后面三天给客户做扫描，这个时候我的Nessus还没安装好，只能紧急求助大佬们了。</p>
-<p>第四周又是HVV，这次我就一个人了，其它厂商的也没有，这次学会自己看点东西了，看看攻击的IP是哪里发出来了，大佬们有没有给IP做过标记，还是挺有意思的（甲方的饭也很香），最终拿了个基础分，周末突然来个群侧任务，就找了个任意密码重置的漏洞（菜）。</p>
-<p>这周是第五周了，跟着大佬去甲方做渗透测试（水都没有，甲方跟甲方的差距比人跟狗都大），大佬在旁边做，我不时地提出自己的见解（应该不是捣乱），感觉学到了很多 ，又仿佛什么都没学到，还是需要经验的，另外有机会我一定回去好好刷OWASP TOP 10（周五还有一个复测任务，应该好做一点吧？），下周要去温州出差，我以为我一个实习生不用出远门的。（呜呜呜）</p>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>就写到这里吧。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>总结</tag>
       </tags>
   </entry>
 </search>
