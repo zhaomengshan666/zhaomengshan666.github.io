@@ -18,22 +18,25 @@
       </categories>
   </entry>
   <entry>
-    <title>数据集</title>
-    <url>/2020/04/12/Dataset/</url>
-    <content><![CDATA[<h1 id="常用数据集查询平台"><a href="#常用数据集查询平台" class="headerlink" title="常用数据集查询平台"></a>常用数据集查询平台</h1><a id="more"></a>
-<blockquote>
-<p>1.北京大学开放研究数据平台：<br><a href="https://opendata.pku.edu.cn/" target="_blank" rel="noopener">https://opendata.pku.edu.cn/</a><br>2.微软研究院开放数据：<br><a href="https://msropendata.com/" target="_blank" rel="noopener">https://msropendata.com/</a></p>
-</blockquote>
-<h1 id="常用数据集整理"><a href="#常用数据集整理" class="headerlink" title="常用数据集整理"></a>常用数据集整理</h1><!--more-->
-<blockquote>
-<p>1.新浪微博数据集MicroblogPCU：<br><a href="https://archive.ics.uci.edu/ml/machine-learning-databases/00323/" target="_blank" rel="noopener">https://archive.ics.uci.edu/ml/machine-learning-databases/00323/</a></p>
-</blockquote>
+    <title>2021/09/09</title>
+    <url>/2021/09/09/2021-09-09/</url>
+    <content><![CDATA[<h1 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h1><p>最近几天在忙开学的事情，终于开学了，研究生生活终于开始了，菜鸡的我要面对现实了。</p>
+<a id="more"></a>
+
+<h1 id="二、心情"><a href="#二、心情" class="headerlink" title="二、心情"></a>二、心情</h1><p>开学的时候很忙啊，报道那天担心赶不上要睡硬木板，让@<strong>某人</strong>帮忙先去超市买了一整套，非常感谢。</p>
+<p>报道是跟舍友一起来的，俩人都还不错，能说到一块儿去，俩人都是保研来的，可惜最后被我这个菜鸡捡到了那个上床下桌的位置，受之有愧。</p>
+<p>山大环境还好吧，就是风有点大，靠近海边空气也比较潮湿，不用买加湿器了，校园感觉很陌生啊，慢慢熟悉吧。</p>
+<p>抱着听天由命的态度来选导师，好像也没啥错，就是要补的知识点有一点点多，没想到自己能选上一个那么厉害的导师，而且同批次的人也都很厉害，加油啊。</p>
+<p>就是打卡制度有一点点严格，不过我只想说，干得漂亮，这样以后就可以避免无所谓的社交了，还能严格监督我玩游戏，我要内卷所有人<del>~</del>。</p>
+<h1 id="三、期望"><a href="#三、期望" class="headerlink" title="三、期望"></a>三、期望</h1><p>做个有用的人吧，本科的时候一手好牌打得稀烂，现在上天给的机会，一定要珍惜。</p>
+<h1 id="四、试一试"><a href="#四、试一试" class="headerlink" title="四、试一试"></a>四、试一试</h1><p>试一试latex的语法，看看能不能在MarkDown中使用。</p>
+<p>$$<br>f(n)=<br>    \begin{cases}<br>        n/2, &amp; \text{if $n$ is even}\<br>        3n+1,&amp; \text{if $n$ is odd}<br>    \end{cases}<br>$$<br>可以，好耶！</p>
 ]]></content>
       <categories>
-        <category>复杂网络</category>
+        <category>日记</category>
       </categories>
       <tags>
-        <tag>数据集</tag>
+        <tag>日记</tag>
       </tags>
   </entry>
   <entry>
@@ -57,6 +60,46 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据集</title>
+    <url>/2020/04/12/Dataset/</url>
+    <content><![CDATA[<h1 id="常用数据集查询平台"><a href="#常用数据集查询平台" class="headerlink" title="常用数据集查询平台"></a>常用数据集查询平台</h1><a id="more"></a>
+<blockquote>
+<p>1.北京大学开放研究数据平台：<br><a href="https://opendata.pku.edu.cn/" target="_blank" rel="noopener">https://opendata.pku.edu.cn/</a><br>2.微软研究院开放数据：<br><a href="https://msropendata.com/" target="_blank" rel="noopener">https://msropendata.com/</a></p>
+</blockquote>
+<h1 id="常用数据集整理"><a href="#常用数据集整理" class="headerlink" title="常用数据集整理"></a>常用数据集整理</h1><!--more-->
+<blockquote>
+<p>1.新浪微博数据集MicroblogPCU：<br><a href="https://archive.ics.uci.edu/ml/machine-learning-databases/00323/" target="_blank" rel="noopener">https://archive.ics.uci.edu/ml/machine-learning-databases/00323/</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>复杂网络</category>
+      </categories>
+      <tags>
+        <tag>数据集</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HTML中form标签下enctype属性的使用</title>
+    <url>/2021/04/16/HTML-form-enctype/</url>
+    <content><![CDATA[<h1 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h1><p>enctype属性是将指定的数据回发到服务器时，浏览器所使用的编码类型</p>
+<a id="more"></a>
+<hr>
+<h1 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h1><hr>
+<p>enctype的编码类型有三种：</p>
+<h2 id="application-x-www-form-urlencoded"><a href="#application-x-www-form-urlencoded" class="headerlink" title="application/x-www-form-urlencoded"></a>application/x-www-form-urlencoded</h2><p>&ensp;这个类型是发送数据时默认的编码类型，当没有在form标签中设置enctype属性是就默认为application/x-www-form-urlencoded类型。 数据发送到服务器之前，所有字符都会进行编码（空格转换为 “+” 加号，特殊符号转换为 ASCII HEX 值）。</p>
+<hr>
+<h2 id="multipart-form-data"><a href="#multipart-form-data" class="headerlink" title="multipart/form-data"></a>multipart/form-data</h2><p>&ensp; 这个是专门用来传输特殊类型数据的，如我们上传的非文本的内容，比如图片或者MP3等。这种编码类型不对字符编码，数据通过二进制的形式传送到服务器端，这时如果用request是无法直接获取到相应表单的值的，而应该通过stream流对象，将传到服务器端的二进制数据解码，从而读取数据。</p>
+<hr>
+<h2 id="text-plain"><a href="#text-plain" class="headerlink" title="text/plain"></a>text/plain</h2><p>&ensp;数据以纯文本形式进行编码，空格转换为 “+” 加号，但不对特殊字符编码。</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
       </tags>
   </entry>
   <entry>
@@ -87,27 +130,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HTML中form标签下enctype属性的使用</title>
-    <url>/2021/04/16/HTML-form-enctype/</url>
-    <content><![CDATA[<h1 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h1><p>enctype属性是将指定的数据回发到服务器时，浏览器所使用的编码类型</p>
-<a id="more"></a>
-<hr>
-<h1 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h1><hr>
-<p>enctype的编码类型有三种：</p>
-<h2 id="application-x-www-form-urlencoded"><a href="#application-x-www-form-urlencoded" class="headerlink" title="application/x-www-form-urlencoded"></a>application/x-www-form-urlencoded</h2><p>&ensp;这个类型是发送数据时默认的编码类型，当没有在form标签中设置enctype属性是就默认为application/x-www-form-urlencoded类型。 数据发送到服务器之前，所有字符都会进行编码（空格转换为 “+” 加号，特殊符号转换为 ASCII HEX 值）。</p>
-<hr>
-<h2 id="multipart-form-data"><a href="#multipart-form-data" class="headerlink" title="multipart/form-data"></a>multipart/form-data</h2><p>&ensp; 这个是专门用来传输特殊类型数据的，如我们上传的非文本的内容，比如图片或者MP3等。这种编码类型不对字符编码，数据通过二进制的形式传送到服务器端，这时如果用request是无法直接获取到相应表单的值的，而应该通过stream流对象，将传到服务器端的二进制数据解码，从而读取数据。</p>
-<hr>
-<h2 id="text-plain"><a href="#text-plain" class="headerlink" title="text/plain"></a>text/plain</h2><p>&ensp;数据以纯文本形式进行编码，空格转换为 “+” 加号，但不对特殊字符编码。</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>HTML</tag>
       </tags>
   </entry>
   <entry>
